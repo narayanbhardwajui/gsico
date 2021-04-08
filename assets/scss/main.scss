@@ -7,7 +7,6 @@ body {
 .listservices {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #f8f8f8;
     ul {
         list-style: none;
         padding: 0;
@@ -18,12 +17,23 @@ body {
         li {
             max-width: 350px;
             padding: 25px;
+            transition: 0.3s ease-in-out;
+            border-bottom: 4px solid transparent;
+            border-radius: 20px;
             &.active {
-                box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-                -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-                -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-                background-color: #fff;
-                border-radius: 30px;
+                //box-shadow: 0px 0px 8px 0px #a5a2b3;
+                // -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+                // -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+
+
+                transition: 0.3s ease-in-out;
+                background-color: rgba(208, 208, 223, 0.137);
+                //border-color: #6350d0;
+                h3 {
+                    color: #6350d0;
+                    // border-bottom: 4px solid currentColor;
+                    text-decoration: underline;
+                }
             }
             p {
                 color: #666666;
@@ -42,9 +52,21 @@ body {
         margin-right: auto;
     }
     &-img {
-        text-align: center;
+        max-width: 75%;
+        height: 100%;
+        max-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        overflow-y: hidden;
         img {
             max-width: 80%;
+            width: 100%;
+            &#scan {
+                max-width: 55%;
+                position: absolute;
+            }
         }
     }
 }
@@ -56,7 +78,7 @@ body {
     right: 0;
     left: 0;
     height: 1px;
-    width: 400px;
+    width: 70%;
     top: 0;
     margin: 0 auto;
     position: absolute;
@@ -64,8 +86,9 @@ body {
     transform: translateY(0%);
     animation-iteration-count: infinite;
     transition-timing-function: ease, step-start, cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    z-index: 10;
 }
 @keyframes move {
     0% { transform: translateY(0); }
-    100% { transform: translateY(450px); }
+    100% { transform: translateY(480px); }
 }

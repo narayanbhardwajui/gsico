@@ -14,18 +14,7 @@
   <body>
     <!--header-->
     <header class="p-3 mb-3 border-bottom d-none">
-    <script>
-        const images = ['']
-        document.getElementById("scan").src = '@/assets/images/Capture.PNG';
-        var titles = []
-        setInterval(function(){
-            let active = false;
-            let list = document.getElementsByClassName('list');
-            list.array.forEach(element => {
 
-            });
-        },2000)
-    </script>
   <div class="container">
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
       <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
@@ -67,38 +56,41 @@
 drive user<br> engagement and eventually convert home buyers fast.</p>
 </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-3">
                 <ul class="listservices-left">
-                    <li id="" class="list active">
+                    <li id="imageFeature" class="list active">
                         <h3>Image Features</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </li>
-                    <li class="list">
+                    <li id="imageProperties" class="list">
                         <h3>Image Properties</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </li>
-                    <li class="list">
+                    <li id="imageText" class="list">
                         <h3>Image to Text</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </li>
                 </ul>
             </div>
-            <div class="col-4 listservices-img d-flex justify-content-center align-items-center position-relative">
+            <div class="col-6">
+              <div class="listservices-img  position-relative">
                 <span class="object-img scan"></span>
+                <img id="cornerimg" src="/assets/images/arrow-bg.png" alt="" class="img-fluid">
                 <img id="scan" src="" alt="" class="img-fluid">
+              </div>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <ul class="listservices-right">
-                    <li class="list">
+                    <li id="visualSearch" class="list">
                         <h3>Visual Search</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </li>
-                    <li class="list">
+                    <li id="quality" class="list">
                         <h3>Quality</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </li>
-                    <li class="list">
-                        <h3>Enhancement/Augmentation</h3>
+                    <li id="enhancement" class="list">
+                        <h3>Enhancement / <br>Augmentation</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </li>
                 </ul>
@@ -107,5 +99,45 @@ drive user<br> engagement and eventually convert home buyers fast.</p>
         </div>
     </section>
     <script src="scss/bootstrap.bundle.min.js"></script>
+    <script>
+        var index = 0;
+        const images = [{
+            "name":'imageFeature',
+            "src":'assets/images/imageFeatures.svg'
+            },
+            {
+            "name":'imageProperties',
+            "src":'assets/images/imageProperties.svg'
+            },
+            {
+            "name":'imageText',
+            "src":'assets/images/imageText.svg'
+            },
+            {
+            "name":'visualSearch',
+            "src":'assets/images/visualSearch.svg'
+            },
+            {
+            "name":'quality',
+            "src":'assets/images/Quality.svg'
+            },
+            {
+            "name":'enhancement',
+            "src":'assets/images/06.jpg'
+            }];
+            document.getElementById("scan").src = images[0].src;
+        setInterval(function(){
+            let descriptionList = Array.from(document.getElementsByClassName('list'));
+            descriptionList.forEach(element => element.classList.remove('active'));
+            index = index + 1;
+            index = (index % images.length);
+            document.getElementById("scan").src = images[index].src;
+            descriptionList.forEach(element => {
+                if(element.id == images[index].name) {
+                    element.classList.add('active');
+                }
+            });
+        },2900)
+    </script>
   </body>
 </html>
