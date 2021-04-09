@@ -12,132 +12,146 @@
     <title>Hello, world!</title>
   </head>
   <body>
+
     <!--header-->
-    <header class="p-3 mb-3 border-bottom d-none">
+    <header class="p-3 fixed-top header">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="h2 d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none me-5 fw-light">
+            GSICO
+          </a>
 
-  <div class="container">
-    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      </a>
-
-      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
-      </ul>
-
-      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-        <input type="search" class="form-control" placeholder="Search...">
-      </form>
-
-      <div class="dropdown text-end">
-        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-        </a>
-        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-          <li><a class="dropdown-item" href="#">New project...</a></li>
-          <li><a class="dropdown-item" href="#">Settings</a></li>
-          <li><a class="dropdown-item" href="#">Profile</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Sign out</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</header>
-    <!--header-->
-
-    <section class="listservices">
-        <div class="text-center" style="margin-bottom: 100px;">
-        <h2 class="mb-2">Your Intelligent Partner for Real Estate Imagery</h2>
-        <p>Supercharge your Digital Assets with our AI driven solutions to streamline user experience,
-drive user<br> engagement and eventually convert home buyers fast.</p>
-</div>
-        <div class="row">
-            <div class="col-3">
-                <ul class="listservices-left">
-                    <li id="imageFeature" class="list active">
-                        <h3>Image Features</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </li>
-                    <li id="imageProperties" class="list">
-                        <h3>Image Properties</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </li>
-                    <li id="imageText" class="list">
-                        <h3>Image to Text</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </li>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 text-uppercase">
+            <li><a href="#" class="nav-link px-2 link-light">Our SD-WAN Solution <span class="d-inline-block ms-2 h6">•</span></a></li>
+            <li class="dropdown"><a href="#" class="nav-link px-2 link-light dropdown-toggle" id="productLink" data-bs-toggle="dropdown" aria-expanded="false">Our Products</a>
+                <ul class="dropdown-menu" aria-labelledby="productLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
+            </li>
+            <li><a href="#" class="nav-link px-2 link-light">Partners <span class="d-inline-block ms-2 h6">•</span></a></li>
+            <li><a href="#" class="nav-link px-2 link-light">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--header-->
+
+    <!--home slider-->
+      <section class="homeslider ">
+        <div class="slide-item">
+              <figure class="d-flex align-items-center justify-content-center">
+                  <img class="img-fluid" src="https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/worldmap.jpg" alt="">
+                  <figcaption class="position-absolute top-50 text-white">
+                    <h2>Worldwide Coverage</h2>
+                  </figcaption>
+              </figure>
+        </div>
+      </section>
+    <!--home slider-->
+
+    <!--our feature-->
+    <section class="ourfeature spacer">
+      <div class="container">
+        <h2 class="display-4 fw-normal text-center mb-5">Our Features</h2>
+        <div class="row">
+            <div class="col">
+                <div class="text-center">
+                  <img class="mb-2" src="assets/images/boost.png" alt="">
+                  <h3 class="mb-3">Boost Network Performance</h3>
+                  <p>Our dynamic multipath optimization technology will ensure consistent and speedy connection to mission critical applications.</p>
+                </div>
             </div>
-            <div class="col-6">
-              <div class="listservices-img  position-relative">
-                <span class="object-img scan"></span>
-                <img id="cornerimg" src="/assets/images/arrow-bg.png" alt="" class="img-fluid">
-                <img id="scan" src="" alt="" class="img-fluid">
+            <div class="col">
+                <div class="text-center">
+                  <img class="mb-2" src="assets/images/g2.png" alt="">
+                  <h3 class="mb-3">Full Network Visibility</h3>
+                  <p>With our all-in-one dashboard, see everything going on in your network and easily make changes to policies with a few clicks of a mouse..</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                  <img class="mb-2" src="assets/images/boost03.png" alt="">
+                  <h3 class="mb-3">Enterprise-level Security</h3>
+                  <p>With our complete security features, easily detect and stop any threats. Have an easier time becoming compliant with SOCII, SIEM, GDPR and more.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+                  <img src="assets/images/boost4.png" alt="">
+                  <h3 class="mb-3">Customizable Secure WAN</h3>
+                  <p class="mb-2">Easily section your network for application of rules, control traffic, set up security preferences and leave the rest to our SD-WAN technology.</p>
+                </div>
+            </div>
+            <div class="w-100 col pt-5 mt-5">
+              <iframe width="1120" height="630" src="https://www.youtube.com/embed/GNpIMU8naik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!--our feature-->
+
+    <!--solutions-->
+    <section class="solution spacer bg-light">
+      <div class="container">
+          <div class="row">
+            <ul class="nav nav-tabs justify-content-center pe-0 mb-3" id="myTab" role="tablist">
+              <li class="nav-item w-50" role="presentation">
+                <button class="nav-link active bg-dark text-white w-100 py-3 h4" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Enterprise SD-WAN Solution</button>
+              </li>
+              <li class="nav-item w-50" role="presentation">
+                <button class="nav-link bg-dark text-white w-100 py-3 h4" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Service Provider Partnership Program</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="herobg tab1 d-flex flex-wrap align-items-center justify-content-center">
+                      <div class="text-center mx-auto" style="max-width: 50rem;">
+                          <h3 class="h1">Hermes Network Enterprise<br> SD-WAN Solution</h3>
+                          <p class="lead fw-bold">From securing and speeding up the connection between your team and mission critical applications to ensuring that your team stays connected during outages, our SD-WAN has everything you need to keep your enterprise ahead of the competition and more.  </p>
+                          <button class="btn btn-primary">Our Solution</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="herobg tab2 d-flex flex-wrap align-items-center justify-content-center">
+                      <div class="text-center mx-auto" style="max-width: 50rem;">
+                          <h3 class="h1">Hermes Network Enterprise<br> SD-WAN Solution</h3>
+                          <p class="lead fw-bold">From securing and speeding up the connection between your team and mission critical applications to ensuring that your team stays connected during outages, our SD-WAN has everything you need to keep your enterprise ahead of the competition and more.  </p>
+                          <button class="btn btn-primary">Our Solution</button>
+                      </div>
+                  </div>
               </div>
             </div>
-            <div class="col-3">
-                <ul class="listservices-right">
-                    <li id="visualSearch" class="list">
-                        <h3>Visual Search</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </li>
-                    <li id="quality" class="list">
-                        <h3>Quality</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </li>
-                    <li id="enhancement" class="list">
-                        <h3>Enhancement / <br>Augmentation</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
+          </div>
+      </div>
     </section>
-    <script src="scss/bootstrap.bundle.min.js"></script>
-    <script>
-        var index = 0;
-        const images = [{
-            "name":'imageFeature',
-            "src":'assets/images/imageFeatures.svg'
-            },
-            {
-            "name":'imageProperties',
-            "src":'assets/images/imageProperties.svg'
-            },
-            {
-            "name":'imageText',
-            "src":'assets/images/imageText.svg'
-            },
-            {
-            "name":'visualSearch',
-            "src":'assets/images/visualSearch.svg'
-            },
-            {
-            "name":'quality',
-            "src":'assets/images/Quality.svg'
-            },
-            {
-            "name":'enhancement',
-            "src":'assets/images/06.jpg'
-            }];
-            document.getElementById("scan").src = images[0].src;
-        setInterval(function(){
-            let descriptionList = Array.from(document.getElementsByClassName('list'));
-            descriptionList.forEach(element => element.classList.remove('active'));
-            index = index + 1;
-            index = (index % images.length);
-            document.getElementById("scan").src = images[index].src;
-            descriptionList.forEach(element => {
-                if(element.id == images[index].name) {
-                    element.classList.add('active');
-                }
-            });
-        },2900)
-    </script>
+    <!--solutions-->
+
+    <!--gateways-->
+    <section class="gateways spacer">
+      <div class="container">
+        <h2 class="display-4 fw-normal text-center mb-5">Our Global Gateways</h2>
+        <img  src="/assets/images/mapIndia.png" alt="">
+      </div>
+    </section>
+    <!--gateways-->
+
+        <!--gateways-->
+    <section class="gateways spacer">
+      <div class="container text-center">
+        <h2 class="display-4 fw-normal text-center mb-5">Our Ecosystem of Partners</h2>
+        <img src="/assets/images/Ecosystem-Of-Partners.png" alt="">
+      </div>
+    </section>
+    <!--gateways-->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script>
+    $('.homeslider').slick();
+  </script>
   </body>
 </html>
