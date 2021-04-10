@@ -2,6 +2,68 @@
 @import url(e:\Learning\gsico\assets\scss\bootstrap.min.css);
 body {
   letter-spacing: 0.2px;
+  font-size: 14px;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #555;
+}
+
+p,
+li,
+li a {
+  color: #555;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #555;
+  margin-top: 5px;
+  text-shadow: none;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 33px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+h4 {
+  line-height: 25px;
+}
+
+h5 {
+  line-height: 20px;
+}
+
+h6 {
+  line-height: 18px;
+}
+
+::selection {
+  color: #fff;
+  background: #4765a0;
 }
 
 .header {
@@ -29,6 +91,21 @@ body {
   width: 100%;
   max-height: 100vh;
   object-fit: cover;
+}
+
+.homeslider .slider-title {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeslider .slider-title .fa {
+  font-size: 16px;
+  margin: 0 30px;
 }
 
 .spacer {
@@ -97,6 +174,10 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.footer__top {
+  padding: 100px 0;
+}
+
 .footer i {
   padding: 8px 10px;
   font-size: 18px;
@@ -106,12 +187,54 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.footer .copyright-section {
+.footer__copyright {
   z-index: 1;
   background: #fff;
   position: relative;
   text-align: center;
-  padding: 25px 0 20px;
+  padding: 30px 0 25px;
+}
+
+.footer .service-block {
+  padding: 20px 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer__title {
+  font-size: 28px;
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer__title::after {
+  bottom: 0;
+  left: 50%;
+  height: 1px;
+  width: 70px;
+  content: " ";
+  margin-left: -35px;
+  position: absolute;
+  background: #4765a0;
+}
+
+.page-scroll {
+  position: absolute;
+  top: -35px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.page-scroll i {
+  margin-right: 0;
+  color: #555;
+  font-size: 20px;
 }
 
 /* Slider */
