@@ -21,17 +21,10 @@ body {
             border-bottom: 4px solid transparent;
             border-radius: 20px;
             &.active {
-                //box-shadow: 0px 0px 8px 0px #a5a2b3;
-                // -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-                // -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-
-
                 transition: 0.3s ease-in-out;
                 background-color: rgba(208, 208, 223, 0.137);
-                //border-color: #6350d0;
                 h3 {
                     color: #6350d0;
-                    // border-bottom: 4px solid currentColor;
                     text-decoration: underline;
                 }
             }
