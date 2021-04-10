@@ -38,6 +38,21 @@ body {
 }
 //ourfeature
 
+.gridtile  {
+    position: relative;
+    z-index: 1;
+    &:after {
+        content: '';
+        background: rgba(0,0,0,0.4) url(http://www.gsico.net/assets/plugins/revolution-slider/rs-plugin/assets/gridtile.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+}
+
 .herobg  {
     position: relative;
     z-index: 1;
@@ -69,5 +84,22 @@ body {
     border-bottom: 0;
     &.active {
         opacity: 1;
+    }
+}
+
+//footer
+.footer {
+    background: url(http://www.gsico.net/assets/img/bg/3.jpg) no-repeat center  fixed;
+    background-size: cover;
+    &:after {
+    background-color: rgba(0,0,0,0.7);
+    }
+    i {
+        padding: 8px 10px;
+        font-size: 18px;
+        margin-right: 5px;
+        text-align: center;
+        display: inline-block;
+        background: rgba(255,255,255,0.1);
     }
 }
