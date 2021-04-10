@@ -102,4 +102,12 @@ body {
         display: inline-block;
         background: rgba(255,255,255,0.1);
     }
+
+    .copyright-section {
+    z-index: 1;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    padding: 25px 0 20px;
+}
 }
