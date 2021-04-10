@@ -17,7 +17,7 @@ body {
 .homeslider {
     &:after {
         content: '';
-        background: url(/assets/images/gridtile.png);
+        background: url(http://www.gsico.net/assets/plugins/revolution-slider/rs-plugin/assets/gridtile.png);
         position: absolute;
         left: 0;
         top: 0;
@@ -43,7 +43,7 @@ body {
     z-index: 1;
     &:after {
         content: '';
-        background: rgba(0,0,0,0.4) url(/assets/images/gridtile.png);
+        background: rgba(0,0,0,0.4) url(http://www.gsico.net/assets/plugins/revolution-slider/rs-plugin/assets/gridtile.png);
         position: absolute;
         top: 0;
         left: 0;
@@ -52,12 +52,12 @@ body {
         z-index: -1;
     }
     &.tab1 {
-        background: url(/assets/images/tech-meeting-flatlay-scaled.jpg) no-repeat center / cover;
+        background: url(https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/tech-meeting-flatlay-scaled.jpg) no-repeat center / cover;
         min-height: 500px;
         color: #fff;
     }
     &.tab2 {
-        background: url(/assets/images/network-technology-scaled.jpg) no-repeat center / cover;
+        background: url(https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/network-technology-scaled.jpg) no-repeat center / cover;
         min-height: 500px;
         color: #fff;
     }
