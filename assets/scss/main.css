@@ -68,6 +68,17 @@ h6 {
 .header {
   background: rgba(0, 0, 0, 0.4);
   z-index: 100;
+  transition: background .3s ease-in-out,padding .3s ease-in-out;
+}
+
+.header__fixed {
+  background: #fff;
+  box-shadow: 0 0 3px #b5b5b5;
+  padding: 0.75rem 1rem !important;
+}
+
+.header__fixed .nav-link, .header__fixed .logo {
+  color: #777 !important;
 }
 
 .header .nav-link {
