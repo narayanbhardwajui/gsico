@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(e:\Learning\gsico\assets\scss\bootstrap.min.css);
 body {
   letter-spacing: 0.2px;
   font-size: 14px;
@@ -166,7 +165,7 @@ h6 {
 }
 
 .footer {
-  background: url(http://www.gsico.net/assets/img/bg/3.jpg) no-repeat center fixed;
+  background: url(https://i.ibb.co/Tw3pLqv/3.jpg) no-repeat center fixed;
   background-size: cover;
 }
 
