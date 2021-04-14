@@ -1,69 +1,10 @@
-body {
-    letter-spacing: 0.2px;
-    font-size: 14px;
-    color: #333;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+.text-primary {
+    color: #4765a0!important;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #555;
+.btn-primary {
+    background-color: #4765a0;
+    border-color: #4765a0;
 }
-
-p,
-li,
-li a {
-    color: #555;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #555;
-    margin-top: 5px;
-    text-shadow: none;
-    font-weight: normal;
-}
-
-h1 {
-    font-size: 28px;
-    line-height: 35px;
-}
-
-h2 {
-    font-size: 24px;
-    line-height: 33px;
-}
-
-h3 {
-    font-size: 20px;
-    line-height: 27px;
-}
-
-h4 {
-    line-height: 25px;
-}
-
-h5 {
-    line-height: 20px;
-}
-
-h6 {
-    line-height: 18px;
-}
-
-::selection {
-    color: #fff;
-    background: #4765a0;
-}
-
 //header
 .header {
     background: rgba(0, 0, 0, 0.4);
