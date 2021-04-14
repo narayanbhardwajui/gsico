@@ -35,29 +35,14 @@ h6 {
 
 h1 {
   font-size: 28px;
-  line-height: 35px;
 }
 
 h2 {
   font-size: 24px;
-  line-height: 33px;
 }
 
 h3 {
   font-size: 20px;
-  line-height: 27px;
-}
-
-h4 {
-  line-height: 25px;
-}
-
-h5 {
-  line-height: 20px;
-}
-
-h6 {
-  line-height: 18px;
 }
 
 ::selection {
@@ -543,6 +528,5 @@ h6 {
   padding: 50px 0;
   background: url(http://www.gsico.net/assets/img/bg/img2.jpg) no-repeat center;
   background-size: cover;
-  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

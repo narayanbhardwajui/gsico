@@ -30,8 +30,8 @@
               data-bs-toggle="dropdown" aria-expanded="false">Our Products</a>
             <ul class="dropdown-menu" aria-labelledby="productLink">
               <li><a class="dropdown-item" href="edge-devices.php">Edge Devices</a></li>
-              <li><a class="dropdown-item" href="#">Cloud-managed AP and Switches </a></li>
-              <li><a class="dropdown-item" href="#">VNF</a></li>
+              <li><a class="dropdown-item" href="cloud-managed-ap-and-switches.php">Cloud-managed AP and Switches </a></li>
+              <li><a class="dropdown-item" href="vnf.php">VNF</a></li>
             </ul>
           </li>
           <li><a href="#" class="nav-link px-2 link-light">Partners <span class="d-inline-block ms-2 h6">•</span></a>
