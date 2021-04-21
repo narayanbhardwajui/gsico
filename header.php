@@ -2,7 +2,7 @@
   <header class="p-3 fixed-top header">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/"
+        <a href="index.php"
           class="logo h2 d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none me-5 fw-light">
           GSICO
         </a>
