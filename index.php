@@ -20,7 +20,7 @@
 <section class="homeslider">
   <div class="slide-item">
     <figure class="d-flex align-items-center justify-content-center">
-      <img class="img-fluid" src="C:\wamp64\www\gsico\assets\images\GSISD SDWAN turbocharge network_Homepage.jpg" alt="">
+      <img class="img-fluid" src="assets\images\GSISD Cloud_Homepage.jpg" alt="">
       <figcaption class="position-absolute top-50 text-white">
         <h2 class="text-white h1 fw-normal slider-title mb-5"><i class="fa fa-star" aria-hidden="true"></i>
         BOOST YOUR NETWORK<i class="fa fa-star" aria-hidden="true"></i>
