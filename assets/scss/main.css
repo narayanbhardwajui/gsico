@@ -529,4 +529,9 @@ h3 {
   background: url(http://www.gsico.net/assets/img/bg/img2.jpg) no-repeat center;
   background-size: cover;
 }
+
+.contact-form {
+  background-color: #ddd;
+  padding: 30px;
+}
 /*# sourceMappingURL=main.css.map */
