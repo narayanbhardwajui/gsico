@@ -20,15 +20,12 @@
 <section class="homeslider">
   <div class="slide-item">
     <figure class="d-flex align-items-center justify-content-center">
-      <img class="img-fluid" src="https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/worldmap.jpg" alt="">
+      <img class="img-fluid" src="C:\wamp64\www\gsico\assets\images\GSISD SDWAN turbocharge network_Homepage.jpg" alt="">
       <figcaption class="position-absolute top-50 text-white">
         <h2 class="text-white h1 fw-normal slider-title mb-5"><i class="fa fa-star" aria-hidden="true"></i>
-          A Brand You Can Trust<i class="fa fa-star" aria-hidden="true"></i>
+        BOOST YOUR NETWORK<i class="fa fa-star" aria-hidden="true"></i>
         </h2>
-        <p class="text-white h3 fw-light text-center">GSI is dedicated to providing its clients<br>
-          with the best cutting-edge, advanced<br>
-          security technology solutions for their<br>
-          unique and challenging environments.</p>
+        <p class="text-white h3 fw-light text-center">Turbocharge your network with Next-Gen SD-WAN Solution.</p>
       </figcaption>
     </figure>
   </div>
