@@ -12,146 +12,257 @@
   <link href="assets/scss/main.css" rel="stylesheet">
   <title></title>
 </head>
+
 <body>
-  
-<?php include 'header.php';?>
 
-<!--home slider-->
-<section class="homeslider">
-  <div class="slide-item">
-    <figure class="d-flex align-items-center justify-content-center">
-      <img class="img-fluid" src="assets\images\GSISD SDWAN turbocharge network_Homepage.jpg" alt="GSISD SDWAN turbocharge network">
-      <figcaption class="position-absolute top-50 text-white">
-        <h2 class="text-white h1 fw-normal slider-title mb-5"><i class="fa fa-star" aria-hidden="true"></i>
-        BOOST YOUR NETWORK<i class="fa fa-star" aria-hidden="true"></i>
-        </h2>
-        <p class="text-white h3 fw-light text-center">Turbocharge your network with Next-Gen SD-WAN Solution.</p>
-      </figcaption>
-    </figure>
-  </div>
-</section>
-<!--home slider-->
+  <?php include 'header.php';?>
 
-<!--our feature-->
-<section class="ourfeature spacer">
-  <div class="container">
-    <h2 class="display-4 fw-normal text-center mb-5">Our Features</h2>
-    <div class="row">
-      <div class="col">
-        <div class="text-center">
-          <img class="mb-2" src="assets/images/boost.png" alt="">
-          <h3 class="mb-3">Boost Network <br>Performance</h3>
-          <p>Our dynamic multipath optimization technology will ensure consistent and speedy connection to mission
-            critical applications.</p>
-        </div>
+  <!--home slider-->
+    <section class="homeslider overflow-hidden">
+      <div class="slide-item gridtile">
+        <figure class="d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="assets/images/Slider-1.jpg"
+            alt="GSISD SDWAN turbocharge network">
+          <figcaption class="position-absolute top-50 text-white">
+            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase"><i class="fa fa-star" aria-hidden="true"></i>
+              BOOST YOUR NETWORK<i class="fa fa-star" aria-hidden="true"></i>
+            </h2>
+            <p class="text-white h3 fw-light text-center">Turbocharge your network with Next-Gen SD-WAN Solution.</p>
+          </figcaption>
+        </figure>
       </div>
-      <div class="col">
-        <div class="text-center">
-          <img class="mb-2" src="assets/images/g2.png" alt="">
-          <h3 class="mb-3">Full Network <br>Visibility</h3>
-          <p>With our all-in-one dashboard, see everything going on in your network and easily make changes to
-            policies with a few clicks of a mouse..</p>
-        </div>
+      <div class="slide-item gridtile">
+        <figure class="d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="assets/images/Slider-2.jpg"
+            alt="GSISD SDWAN turbocharge network">
+          <figcaption class="position-absolute top-50 text-white">
+            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase"><i class="fa fa-star" aria-hidden="true"></i>
+              Smarter Network<i class="fa fa-star" aria-hidden="true"></i>
+            </h2>
+            <p class="text-white h3 fw-light text-center">GSISD managed SD-WAN provide an automated link switchover in case of link failures.</p>
+          </figcaption>
+        </figure>
       </div>
-      <div class="col">
-        <div class="text-center">
-          <img class="mb-2" src="assets/images/boost03.png" alt="">
-          <h3 class="mb-3">Enterprise-level <br>Security</h3>
-          <p>With our complete security features, easily detect and stop any threats. Have an easier time becoming
-            compliant with SOCII, SIEM, GDPR and more.</p>
-        </div>
+      <div class="slide-item gridtile">
+        <figure class="d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="assets/images/Slider-3.jpg"
+            alt="GSISD SDWAN turbocharge network">
+          <figcaption class="position-absolute top-50 text-white">
+            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase"><i class="fa fa-star" aria-hidden="true"></i>
+              Next Gen Secure Enterprise SD-WAN<i class="fa fa-star" aria-hidden="true"></i>
+            </h2>
+            <p class="text-white h3 fw-light text-center">GSISd's network security products provide industry's top-rated next generation firewall (NGFW) security</p>
+          </figcaption>
+        </figure>
       </div>
-      <div class="col">
-        <div class="text-center">
-          <img src="assets/images/boost4.png" alt="">
-          <h3 class="mb-3">Customizable Secure <br>WAN</h3>
-          <p class="mb-2">Easily section your network for application of rules, control traffic, set up security
-            preferences and leave the rest to our SD-WAN technology.</p>
+      <div class="slide-item gridtile">
+        <figure class="d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="assets/images/Slider-4.png"
+            alt="GSISD SDWAN turbocharge network">
+          <figcaption class="position-absolute top-50 text-white">
+            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase"><i class="fa fa-star" aria-hidden="true"></i>
+              GSISD Cloud<i class="fa fa-star" aria-hidden="true"></i>
+            </h2>
+            <p class="text-white h3 fw-light text-center">Take advantage of multi cloud networking as a service.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  <!--home slider-->
+
+  <!--home about us-->
+  <section class="hm__aboutus spacer">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="main-title mb-5 left">About GSISD</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <a href="solutions.php" class="btn btn-primary rounded-pill">Learn More</a>
+            </div>
+            <div class="col text-center">
+                <img src="assets/images/Slider-1.jpg" alt="" class="img-fluid img-thumbnail"  style="object-fit: cover;">
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--our feature-->
+  <section class="ourfeature spacer bg-light">
+    <div class="container">
+      <h2 class="main-title text-center">Why GSISD ?</h2>
+      <div class="row mt-5">
+        <div class="col">
+          <div class="text-center">
+            <img class="mb-2" src="assets/images/Shift-To-GSISD.png" alt="" width="80px" height="80px">
+            <h3 class="mb-3">Seamless shift to<br> SD-WAN</h3>
+            <p>GSISD Managed services provide a ready-to-deploy solution for businesses of any scale or size with end-to-end ownership by the GSISD team.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center">
+            <img class="mb-2" src="assets/images/GSISD-Turbochrge-Network.png" alt="" width="80px" height="80px">
+            <h3 class="mb-3">Turbocharge Network<br> Performance</h3>
+            <p>Our Next-Gen SD-WAN Solution with optimised unified overlay plane across disparate networks ensure consistent and speedy connection.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center">
+            <img class="mb-2" src="assets/images/GSISD-Secure-SDWAN.png" alt="" width="80px" height="80px">
+            <h3 class="mb-3">Secure Enterprise<br> SD-WAN</h3>
+            <p>With our industry-grade Next-Generation Firewall (NGFW) secure your networks from malicious attacks such as viruses, spyware and phishing attacks.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center">
+            <img src="assets/images/GSISD-Orchestrator.png" alt="" width="80px" height="80px" class="mb-2">
+            <h3 class="mb-3">Network<br> Visibility</h3>
+            <p>With our Easy to use fully interactive dashboard you get 360° visibility and control into everypart of your network.</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!--our feature-->
+  </section>
+  <!--our feature-->
 
-<!--solutions-->
-<section class="solution spacer bg-light">
-  <div class="container">
-    <div class="row">
-      <ul class="nav nav-tabs justify-content-center pe-0 mb-3" id="myTab" role="tablist">
-        <li class="nav-item w-50" role="presentation">
-          <button class="nav-link active bg-dark text-white w-100 py-3 h4" id="home-tab" data-bs-toggle="tab"
-            data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Enterprise
-            SD-WAN Solution</button>
-        </li>
-        <li class="nav-item w-50" role="presentation">
-          <button class="nav-link bg-dark text-white w-100 py-3 h4" id="profile-tab" data-bs-toggle="tab"
-            data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Service
-            Provider Partnership Program</button>
-        </li>
-      </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-          <div class="herobg tab1 d-flex flex-wrap align-items-center justify-content-center">
-            <div class="text-center mx-auto" style="max-width: 50rem;">
-              <h3 class="h1 text-white">Hermes Network Enterprise<br> SD-WAN Solution</h3>
-              <p class="lead fw-bold text-white">From securing and speeding up the connection between your team and
-                mission
-                critical applications to ensuring that your team stays connected during outages, our SD-WAN has
-                everything you need to keep your enterprise ahead of the competition and more. </p>
-              <button class="btn btn-primary">Our Solution</button>
+  <!--solutions-->
+  <section class="solution spacer bg-light">
+    <div class="container">
+      <div class="row">
+        <ul class="nav nav-tabs justify-content-center pe-0 mb-3" id="myTab" role="tablist">
+          <li class="nav-item w-50" role="presentation">
+            <button class="nav-link active bg-dark text-white w-100 py-3 h4" id="home-tab" data-bs-toggle="tab"
+              data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Enterprise
+              SD-WAN Solution</button>
+          </li>
+          <li class="nav-item w-50" role="presentation">
+            <button class="nav-link bg-dark text-white w-100 py-3 h4" id="profile-tab" data-bs-toggle="tab"
+              data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Service
+              Provider Partnership Program</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="herobg tab1 d-flex flex-wrap align-items-center justify-content-center">
+              <div class="text-center mx-auto" style="max-width: 50rem;">
+                <h3 class="h1 text-white">GSISd Network Enterprise<br> SD-WAN Solution</h3>
+                <p class="lead fw-bold text-white">From securing and speeding up the connection between your team and
+                  mission
+                  critical applications to ensuring that your team stays connected during outages, our SD-WAN has
+                  everything you need to keep your enterprise ahead of the competition and more. </p>
+                <a href="/solutions.php" class="btn btn-primary rounded-pill">Our Solution</a>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="herobg tab2 d-flex flex-wrap align-items-center justify-content-center">
+              <div class="text-center mx-auto" style="max-width: 50rem;">
+                <h3 class="h1 text-white">GSISd Network Enterprise<br> SD-WAN Solution</h3>
+                <p class="lead fw-bold text-white">From securing and speeding up the connection between your team and
+                  mission
+                  critical applications to ensuring that your team stays connected during outages, our SD-WAN has
+                  everything you need to keep your enterprise ahead of the competition and more. </p>
+                <button class="btn btn-primary">Our Solution</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-          <div class="herobg tab2 d-flex flex-wrap align-items-center justify-content-center">
-            <div class="text-center mx-auto" style="max-width: 50rem;">
-              <h3 class="h1 text-white">Hermes Network Enterprise<br> SD-WAN Solution</h3>
-              <p class="lead fw-bold text-white">From securing and speeding up the connection between your team and
-                mission
-                critical applications to ensuring that your team stays connected during outages, our SD-WAN has
-                everything you need to keep your enterprise ahead of the competition and more. </p>
-              <button class="btn btn-primary">Our Solution</button>
+      </div>
+    </div>
+  </section>
+  <!--solutions-->
+
+  <!--gateways-->
+  <section class="gateways spacer">
+    <div class="container">
+      <h2 class="main-title text-center">What are GSISD’s SD-WAN <br>Solutions?</h2>
+      <div class="row mt-5">
+        <div class="col-3">
+          <div class="card text-white mb-3 p-2" style="background-color: #6d6d6d;">
+            <div class="card-body text-center">
+                <h5 class="card-title text-white mb-3">GSISd Manage</h5>
+                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card mb-3 text-white mb-3 p-2" style="background-color:#00a09b">
+            <div class="card-body text-center">
+                <h5 class="card-title text-white mb-3">GSISd Connect</h5>
+                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card mb-3 text-white p-2" style="background-color:#215897">
+            <div class="card-body text-center">
+                <h5 class="card-title text-white mb-3">GSISd Optimize</h5>
+                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card mb-3 text-white p-2" style="background-color:#237ca7">
+            <div class="card-body text-center">
+                <h5 class="card-title text-white mb-3">GSISd Cloud</h5>
+                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card mb-3 text-white p-2" style="background-color:#654591">
+            <div class="card-body text-center">
+                <h5 class="card-title text-white mb-3">GSISd Secure</h5>
+                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card mb-3 text-white p-2" style="background-color:#d66c3b">
+            <div class="card-body text-center">
+                <h5 class="card-title text-white mb-3">GSISd Insights</h5>
+                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card mb-3 text-white p-2" style="background-color:#9d9d9d">
+            <div class="card-body text-center">
+                <h5 class="card-title text-white mb-3">Licensing</h5>
+                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!--solutions-->
+  </section>
+  <!--gateways-->
 
-<!--gateways-->
-<section class="gateways spacer">
-  <div class="container text-center">
-    <h2 class="display-4 fw-normal mb-5">Our Global Gateways</h2>
-    <div class="text-center">
-      <img src="https://i.ibb.co/vZ30PDG/mapIndia.png" alt="mapIndia" border="0">
+  <!--partners-->
+  <section class="gateways spacer">
+    <div class="container text-center">
+      <h2 class="main-title mb-5">Our Partners / Our clients</h2>
+      <img src="assets/images/Slider-1.jpg" alt="" class="img-fluid">
     </div>
+  </section>
+  <!--partners-->
 
-  </div>
-</section>
-<!--gateways-->
+  <?php include 'footer.php';?>
 
-<!--gateways-->
-<section class="gateways spacer">
-  <div class="container text-center">
-    <h2 class="display-4 fw-normal mb-5">Our Ecosystem of Partners</h2>
-    <img src="https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/Ecosystem-Of-Partners.png" alt="">
-  </div>
-</section>
-<!--gateways-->
-
-<?php include 'footer.php';?>
-
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/slick.min.js"></script>
-<script src="assets/js/main.js"></script>
-<script>
-  $('.homeslider').slick();
-</script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    $().ready(function(){
+      $('.homeslider').slick({
+        arrows: true,
+        dots: true,
+        slidesToShow: 1,
+        infinite: false
+      });
+  });
+  </script>
 </body>
 
 </html>

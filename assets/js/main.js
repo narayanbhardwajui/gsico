@@ -1,4 +1,5 @@
-$(window).scroll(function() {
+//Scroll Function
+$(window).scroll(function () {
     var scroll = $(window).scrollTop();
 
      //>=, not <=
