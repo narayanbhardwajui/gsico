@@ -209,7 +209,9 @@
         arrows: true,
         dots: true,
         slidesToShow: 1,
-        infinite: false
+        infinite: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
       });
   });
   </script>
