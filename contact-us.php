@@ -20,19 +20,6 @@
 
 <main class="content">
 
-  <!--hero image-->
-  <section class="bgimage solution__banner gridtile" style="min-height:60vh">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-3">
-          <p class="text-white h3 mb-5">Reach within us</p>
-          <h5>Contact Us h</h5>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--hero image-->
-
   <section class="sdwan spacer">
     <div class="container">
       <div class="row">
@@ -82,7 +69,7 @@
 
             <p class="text-secondary"><strong>Global Solutions Integration</strong>,<br> India
             D66GF, RPS Palms, Sector 88
-            Faridabad(121002),<br> Haryana , India"
+            Faridabad,<br> Haryana , India 121002
             </p>
           </address>
         </div>
@@ -95,6 +82,11 @@
 
 </main>
 
+  <footer class="footer gridtile text-white border-top">
+    <div class="footer__copyright">
+      <p class="text-dark mb-0">2021 © All Rights Reserved.</p>
+    </div>
+  </footer>
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"

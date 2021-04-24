@@ -32,6 +32,5 @@
 
     <div class="footer__copyright">
       <p class="text-dark mb-0">2021 © All Rights Reserved.</p>
-      <span class="page-scroll"><a href="#intro"><i class="fa fa-angle-double-up back-to-top"></i></a></span>
     </div>
   </footer>
