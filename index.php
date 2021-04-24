@@ -211,7 +211,8 @@
         slidesToShow: 1,
         infinite: false,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
+        pauseOnHover: false
       });
   });
   </script>
