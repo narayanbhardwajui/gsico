@@ -252,22 +252,6 @@ h3 {
   background: #4765a0;
 }
 
-.page-scroll {
-  position: absolute;
-  top: -35px;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.page-scroll i {
-  margin-right: 0;
-  color: #555;
-  font-size: 20px;
-}
-
 /* Slider */
 .slick-slider {
   position: relative;

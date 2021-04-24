@@ -20,11 +20,11 @@
   <!--home slider-->
     <section class="homeslider overflow-hidden">
       <div class="slide-item gridtile">
-        <figure class="d-flex align-items-center justify-content-center">
+        <figure class="d-flex align-items-center justify-content-center text-center">
           <img class="img-fluid" src="assets/images/Slider-1.jpg"
             alt="GSISD SDWAN turbocharge network">
           <figcaption class="position-absolute top-50 text-white">
-            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase"><i class="fa fa-star" aria-hidden="true"></i>
+            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase d-inline-block"><i class="fa fa-star" aria-hidden="true"></i>
               BOOST YOUR NETWORK<i class="fa fa-star" aria-hidden="true"></i>
             </h2>
             <p class="text-white h3 fw-light text-center">Turbocharge your network with Next-Gen SD-WAN Solution.</p>
@@ -32,35 +32,35 @@
         </figure>
       </div>
       <div class="slide-item gridtile">
-        <figure class="d-flex align-items-center justify-content-center">
+        <figure class="d-flex align-items-center justify-content-center text-center">
           <img class="img-fluid" src="assets/images/Slider-2.jpg"
             alt="GSISD SDWAN turbocharge network">
           <figcaption class="position-absolute top-50 text-white">
-            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase"><i class="fa fa-star" aria-hidden="true"></i>
+            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase d-inline-block"><i class="fa fa-star" aria-hidden="true"></i>
               Smarter Network<i class="fa fa-star" aria-hidden="true"></i>
             </h2>
-            <p class="text-white h3 fw-light text-center">GSISD managed SD-WAN provide an automated link switchover in case of link failures.</p>
+            <p class="text-white h3 fw-light text-center">GSISD managed SD-WAN provide an automated <br>link switchover in case of link failures.</p>
           </figcaption>
         </figure>
       </div>
       <div class="slide-item gridtile">
-        <figure class="d-flex align-items-center justify-content-center">
+        <figure class="d-flex align-items-center justify-content-center text-center">
           <img class="img-fluid" src="assets/images/Slider-3.jpg"
             alt="GSISD SDWAN turbocharge network">
           <figcaption class="position-absolute top-50 text-white">
-            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase"><i class="fa fa-star" aria-hidden="true"></i>
+            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase d-inline-block"><i class="fa fa-star" aria-hidden="true"></i>
               Next Gen Secure Enterprise SD-WAN<i class="fa fa-star" aria-hidden="true"></i>
             </h2>
-            <p class="text-white h3 fw-light text-center">GSISd's network security products provide industry's top-rated next generation firewall (NGFW) security</p>
+            <p class="text-white h3 fw-light text-center">GSISd's network security products provide industry's top-rated<br> next generation firewall (NGFW) security</p>
           </figcaption>
         </figure>
       </div>
       <div class="slide-item gridtile">
-        <figure class="d-flex align-items-center justify-content-center">
+        <figure class="d-flex align-items-center justify-content-center text-center">
           <img class="img-fluid" src="assets/images/Slider-4.png"
             alt="GSISD SDWAN turbocharge network">
           <figcaption class="position-absolute top-50 text-white">
-            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase"><i class="fa fa-star" aria-hidden="true"></i>
+            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase d-inline-block"><i class="fa fa-star" aria-hidden="true"></i>
               GSISD Cloud<i class="fa fa-star" aria-hidden="true"></i>
             </h2>
             <p class="text-white h3 fw-light text-center">Take advantage of multi cloud networking as a service.</p>
