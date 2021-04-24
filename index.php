@@ -74,13 +74,10 @@
   <section class="hm__aboutus spacer">
     <div class="container">
         <div class="row">
-            <div class="col">
-                <h2 class="main-title mb-3 left">About GSISD</h2>
-                <p>GSISD managed SD-WAN helps simplify your WAN environment by establishing a consolidated plane across differing networks. We provide a centrally hosted solution to remotely program edge devices and make changes in real-time. With Network-as-a-Service, you can be confident of maximum performance at zero vendor lock-in.</p>
+            <div class="col-8 offset-2 text-center">
+                <h2 class="main-title mb-4 text-center">About GSISD SD-WAN</h2>
+                <p class="lead mb-4">GSISD managed SD-WAN helps simplify your WAN environment by establishing a consolidated plane across differing networks. We provide a centrally hosted solution to remotely program edge devices and make changes in real-time. With Network-as-a-Service, you can be confident of maximum performance at zero vendor lock-in.</p>
                 <a href="solutions.php" class="btn btn-primary rounded-pill">Learn More</a>
-            </div>
-            <div class="col text-center">
-                <img src="assets/images/Slider-1.jpg" alt="" class="img-fluid img-thumbnail"  style="object-fit: cover;">
             </div>
         </div>
     </div>
@@ -123,53 +120,6 @@
     </div>
   </section>
   <!--our feature-->
-
-  <!--solutions-->
-  <section class="solution spacer bg-light">
-    <div class="container">
-      <div class="row">
-        <ul class="nav nav-tabs justify-content-center pe-0 mb-3" id="myTab" role="tablist">
-          <li class="nav-item w-50" role="presentation">
-            <button class="nav-link active bg-dark text-white w-100 py-3 h4" id="home-tab" data-bs-toggle="tab"
-              data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Enterprise
-              SD-WAN Solution</button>
-          </li>
-          <li class="nav-item w-50" role="presentation">
-            <button class="nav-link bg-dark text-white w-100 py-3 h4" id="profile-tab" data-bs-toggle="tab"
-              data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Service
-              Provider Partnership Program</button>
-          </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <div class="herobg tab1 d-flex flex-wrap align-items-center justify-content-center">
-              <div class="text-center mx-auto" style="max-width: 50rem;">
-                <h3 class="h1 text-white">GSISd Network Enterprise<br> SD-WAN Solution</h3>
-                <p class="lead fw-bold text-white">From securing and speeding up the connection between your team and
-                  mission
-                  critical applications to ensuring that your team stays connected during outages, our SD-WAN has
-                  everything you need to keep your enterprise ahead of the competition and more. </p>
-                <a href="/solutions.php" class="btn btn-primary rounded-pill">Our Solution</a>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <div class="herobg tab2 d-flex flex-wrap align-items-center justify-content-center">
-              <div class="text-center mx-auto" style="max-width: 50rem;">
-                <h3 class="h1 text-white">GSISd Network Enterprise<br> SD-WAN Solution</h3>
-                <p class="lead fw-bold text-white">From securing and speeding up the connection between your team and
-                  mission
-                  critical applications to ensuring that your team stays connected during outages, our SD-WAN has
-                  everything you need to keep your enterprise ahead of the competition and more. </p>
-                <button class="btn btn-primary">Our Solution</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--solutions-->
 
   <!--gateways-->
   <section class="gateways spacer">
