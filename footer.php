@@ -21,8 +21,8 @@
               <li class="text-white"><i class="fa fa-phone"></i> (818) 697-2286</li>
             </ul>
             <ul class="list-unstyled service-block">
-              <li class="text-white"><i class="fa fa-envelope"></i> <a href="mailto:info@Gsico.net"
-                  class="text-white text-decoration-none">info@gsico.net</a></li>
+              <li class="text-white"><i class="fa fa-envelope"></i> <a href="mailto:info@gsisd.net"
+                  class="text-white text-decoration-none">info@gsisd.net</a></li>
             </ul>
           </div>
         </div>
