@@ -121,16 +121,18 @@
   </section>
   <!--our feature-->
 
+  <footer class="footer gridtile text-white">
+
   <!--gateways-->
   <section class="gateways spacer">
     <div class="container">
-      <h2 class="main-title text-center">What are GSISD’s SD-WAN <br>Solutions?</h2>
+      <h2 class="main-title text-center text-white">What are GSISD’s SD-WAN <br>Solutions?</h2>
       <div class="row mt-5">
         <div class="col-3">
           <div class="card text-white mb-3 p-2" style="background-color: #6d6d6d;">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Manage</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -138,7 +140,7 @@
           <div class="card mb-3 text-white mb-3 p-2" style="background-color:#00a09b">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Connect</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -146,7 +148,7 @@
           <div class="card mb-3 text-white p-2" style="background-color:#215897">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Optimize</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -154,7 +156,7 @@
           <div class="card mb-3 text-white p-2" style="background-color:#237ca7">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Cloud</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -162,7 +164,7 @@
           <div class="card mb-3 text-white p-2" style="background-color:#654591">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Secure</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -170,7 +172,7 @@
           <div class="card mb-3 text-white p-2" style="background-color:#d66c3b">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Insights</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -178,7 +180,7 @@
           <div class="card mb-3 text-white p-2" style="background-color:#9d9d9d">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">Licensing</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">View More</a>
+                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -186,17 +188,13 @@
     </div>
   </section>
   <!--gateways-->
+</section>
 
-  <!--partners-->
-  <section class="gateways spacer">
-    <div class="container text-center">
-      <h2 class="main-title mb-5">Our Partners / Our clients</h2>
-      <img src="assets/images/Slider-1.jpg" alt="" class="img-fluid">
+<!--footer-->
+
+<div class="footer__copyright border-top">
+      <p class="text-dark mb-0">2021 © All Rights Reserved.</p>
     </div>
-  </section>
-  <!--partners-->
-
-  <?php include 'footer.php';?>
 
   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
     integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
@@ -216,6 +214,7 @@
       });
   });
   </script>
+  
 </body>
 
 </html>

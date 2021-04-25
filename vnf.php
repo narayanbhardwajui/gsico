@@ -24,7 +24,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-3">
-          <h5>Virtual Network Functions</h5>
+        <p class="text-white h3 mb-5">Get the best out of your SD-WAN with our built in</p>
+          <h5>VIRTUAL NETWORK FUNCTIONS</h5>
         </div>
       </div>
     </div>
@@ -33,9 +34,7 @@
 
   <section class="sdwan spacer">
     <div class="container">
-      <h3 class="h3 text-center">Get more out of your SD-WAN device with our built-in VNFs. With a click of a button,
-        your router becomes more than a router.
-      </h3>
+    <h2 class="main-title mb-4 text-center">Increase your router capabilities with VNF onboarding.</h2>
       <div class="row mt-5">
         <div class="col-6">
           <figure class="px-5">
@@ -71,7 +70,9 @@
 
 </main>
 
-<?php include 'footer.php';?>
+<div class="footer__copyright border-top">
+      <p class="text-dark mb-0">2021 © All Rights Reserved.</p>
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
   integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>

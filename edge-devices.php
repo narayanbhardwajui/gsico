@@ -23,7 +23,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-3">
-          <h5>Edge Devices</h5>
+        <p class="text-white h3 mb-5">Get all-in-one cloud-accessible open computing platform with</p>
+          <h5>GSISD EDGE Devices</h5>
         </div>
       </div>
     </div>
@@ -121,7 +122,9 @@
 
 </main>
 
-<?php include 'footer.php';?>
+<div class="footer__copyright border-top">
+      <p class="text-dark mb-0">2021 © All Rights Reserved.</p>
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
   integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
