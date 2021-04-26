@@ -17,10 +17,8 @@
 
 <?php include 'header.php';?>
 
-<main class="content">
-
   <!--hero image-->
-  <section class="bgimage solution__banner gridtile" style="min-height:60vh">
+  <section class="bgimage solution__banner gridtile vnf__banner">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-3">
@@ -31,6 +29,10 @@
     </div>
   </section>
   <!--hero image-->
+
+<main class="">
+
+
 
   <section class="sdwan spacer">
     <div class="container">

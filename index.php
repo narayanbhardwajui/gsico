@@ -77,7 +77,7 @@
             <div class="col-8 offset-2 text-center">
                 <h2 class="main-title mb-4 text-center">About GSISD SD-WAN</h2>
                 <p class="lead mb-4">GSISD managed SD-WAN helps simplify your WAN environment by establishing a consolidated plane across differing networks. We provide a centrally hosted solution to remotely program edge devices and make changes in real-time. With Network-as-a-Service, you can be confident of maximum performance at zero vendor lock-in.</p>
-                <a href="solutions.php" class="btn btn-primary rounded-pill">Learn More</a>
+                <a href="solutions.php" class="btn btn-danger rounded-pill px-4">Learn More</a>
             </div>
         </div>
     </div>
@@ -128,59 +128,59 @@
     <div class="container">
       <h2 class="main-title text-center text-white">What are GSISD’s SD-WAN <br>Solutions?</h2>
       <div class="row mt-5">
-        <div class="col-3">
-          <div class="card text-white mb-3 p-2" style="background-color: #6d6d6d;">
+        <div class="col-3 mb-3">
+          <div class="card text-white p-2" style="background-color: #c8c6a7;">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Manage</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
+                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card mb-3 text-white mb-3 p-2" style="background-color:#00a09b">
+        <div class="col-3 mb-3">
+          <div class="card text-white p-2" style="background-color:#6e7c7c">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Connect</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
+                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card mb-3 text-white p-2" style="background-color:#215897">
+        <div class="col-3 mb-3">
+          <div class="card text-white p-2" style="background-color:#435560">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Optimize</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
+                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card mb-3 text-white p-2" style="background-color:#237ca7">
+        <div class="col-3 mb-3">
+          <div class="card text-white p-2" style="background-color:#ffc288">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Cloud</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
+                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card mb-3 text-white p-2" style="background-color:#654591">
+        <div class="col-3 mb-3">
+          <div class="card text-white p-2" style="background-color:#00adb5">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Secure</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
+                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card mb-3 text-white p-2" style="background-color:#d66c3b">
+        <div class="col-3 mb-3">
+          <div class="card text-white p-2" style="background-color:#aad8d3">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Insights</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
+                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="card mb-3 text-white p-2" style="background-color:#9d9d9d">
+        <div class="col-3 mb-3">
+          <div class="card text-white p-2" style="background-color:#393e46">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">Licensing</h5>
-                <a href="solutions.php" class="btn btn-light btn-sm">Learn More</a>
+                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -188,6 +188,7 @@
     </div>
   </section>
   <!--gateways-->
+
 </section>
 
 <!--footer-->
@@ -214,7 +215,7 @@
       });
   });
   </script>
-  
+
 </body>
 
 </html>

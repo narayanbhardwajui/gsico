@@ -16,10 +16,8 @@
 
 <?php include 'header.php';?>
 
-<main class="content">
-
   <!--hero image-->
-  <section class="bgimage solution__banner gridtile">
+  <section class="bgimage solution__banner gridtile edgedevice__banner">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-3">
@@ -31,6 +29,7 @@
   </section>
   <!--hero image-->
 
+<main class="">
   <section class="edge__devices">
   <div class="container">
     <div class="row mb-5">

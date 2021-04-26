@@ -25,7 +25,7 @@
       <div class="row">
         <div class="col">
           <form class="contact-form h-100">
-            <h3 class="h3 mb-3 text-primary">Have Us Contact You</h3>
+            <h3 class="h3 mb-3 text-danger">Have Us Contact You</h3>
             <div class="mb-3">
               <input type="text" class="form-control" placeholder="Enter your name">
             </div>
@@ -38,7 +38,7 @@
             <div class="mb-3">
               <input type="text" class="form-control" placeholder="Enter your company name">
             </div>
-            <button type="submit" class="btn btn-primary w-100">Submit</button>
+            <button type="submit" class="btn btn-danger w-100 rounded-pill">Submit</button>
             <p class="mt-5"><i class="fa fa-info-circle me-1"></i>I agree to be contacted by GSISD and GSISD partners.</p>
           </form>
         </div>
