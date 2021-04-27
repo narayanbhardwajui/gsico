@@ -64,11 +64,11 @@
     </section>
 
     <!--gateways-->
-    <section class="gateways spacer border-top">
+    <section class="gateways spacer border-top" id="sdsolutions">
       <div class="container">
         <h2 class="main-title text-center">GSISD SD-WAN Solutions</h2>
         <div class="row mt-5">
-          <div class="col-3 mb-5">
+          <div class="col-3 mb-2">
             <div class="card text-white" style="border-color: #c8c6a7;">
               <h5 class="fw-bold card-title text-white h5 card-header"
                 style="background-color: #c8c6a7;border-color: #c8c6a7;">GSISd Manage</h5>
@@ -84,7 +84,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mb-5">
+          <div class="col-3 mb-2">
             <div class="card  text-white" style="border-color: #6e7c7c;">
               <h5 class="fw-bold card-title text-white h4 card-header"
                 style="background-color: #6e7c7c;border-color: #6e7c7c;">GSISd Connect</h5>
@@ -100,7 +100,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mb-5">
+          <div class="col-3 mb-2">
             <div class="card text-white" style="border-color: #435560;">
               <h5 class="fw-bold card-title text-white h4 card-header"
                 style="background-color: #435560;border-color: #435560;">GSISd Optimize</h5>
@@ -113,7 +113,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mb-5">
+          <div class="col-3 mb-2">
             <div class="card  text-white" style="border-color: #ffc288;">
               <h5 class="fw-bold card-title text-white h4 card-header"
                 style="background-color: #ffc288;border-color: #ffc288;">GSISd Cloud</h5>
@@ -127,6 +127,9 @@
               </div>
             </div>
           </div>
+        </div>
+        <div id="sdsolutions2" style="padding-top:70px">
+        <div class="row">
           <div class="col-3 mb-5">
             <div class="card text-white" style="border-color: #00adb5;">
               <h5 class="fw-bold card-title text-white h4 card-header"
@@ -173,11 +176,13 @@
             </div>
           </div>
         </div>
+        </div>
+
       </div>
     </section>
     <!--gateways-->
 
-    <section class="sdwan__features spacer bg-light">
+    <section class="sdwan__features spacer" style="background-color:#e8e9e9">
       <div class="container">
         <h2 class="main-title mb-4 text-center">GSISD Advantages</h2>
         <div class="row mt-5">

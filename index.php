@@ -18,56 +18,155 @@
   <?php include 'header.php';?>
 
   <!--home slider-->
-    <section class="homeslider overflow-hidden">
-      <div class="slide-item gridtile">
-        <figure class="d-flex align-items-center justify-content-center text-center">
-          <img class="img-fluid" src="assets/images/Slider-1.jpg"
-            alt="GSISD SDWAN turbocharge network">
-          <figcaption class="position-absolute top-50 text-white">
-            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase d-inline-block"><i class="fa fa-star" aria-hidden="true"></i>
-              BOOST YOUR NETWORK<i class="fa fa-star" aria-hidden="true"></i>
-            </h2>
-            <p class="text-white h3 fw-light text-center">Turbocharge your network with Next-Gen SD-WAN Solution.</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="slide-item gridtile">
-        <figure class="d-flex align-items-center justify-content-center text-center">
-          <img class="img-fluid" src="assets/images/Slider-2.jpg"
-            alt="GSISD SDWAN turbocharge network">
-          <figcaption class="position-absolute top-50 text-white">
-            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase d-inline-block"><i class="fa fa-star" aria-hidden="true"></i>
-              Smarter Network<i class="fa fa-star" aria-hidden="true"></i>
-            </h2>
-            <p class="text-white h3 fw-light text-center">GSISD managed SD-WAN provide an automated <br>link switchover in case of link failures.</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="slide-item gridtile">
-        <figure class="d-flex align-items-center justify-content-center text-center">
-          <img class="img-fluid" src="assets/images/Slider-3.jpg"
-            alt="GSISD SDWAN turbocharge network">
-          <figcaption class="position-absolute top-50 text-white">
-            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase d-inline-block"><i class="fa fa-star" aria-hidden="true"></i>
-              Next Gen Secure Enterprise SD-WAN<i class="fa fa-star" aria-hidden="true"></i>
-            </h2>
-            <p class="text-white h3 fw-light text-center">GSISd's network security products provide industry's top-rated<br> next generation firewall (NGFW) security</p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="slide-item gridtile">
-        <figure class="d-flex align-items-center justify-content-center text-center">
-          <img class="img-fluid" src="assets/images/Slider-4.png"
-            alt="GSISD SDWAN turbocharge network">
-          <figcaption class="position-absolute top-50 text-white">
-            <h2 class="text-white h1 fw-normal slider-title mb-5 text-uppercase d-inline-block"><i class="fa fa-star" aria-hidden="true"></i>
-              GSISD Cloud<i class="fa fa-star" aria-hidden="true"></i>
-            </h2>
-            <p class="text-white h3 fw-light text-center">Take advantage of multi cloud networking as a service.</p>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
+	<!-- Intro Section -->
+	<section id="intro" class="intro-section">
+		<div class="fullscreenbanner-container">
+			<div class="fullscreenbanner">
+				<ul>
+					<!-- SLIDE 1 -->
+					<li data-transition="curtain-1" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+						<!-- MAIN IMAGE -->
+						<img src="assets/images/Slider-2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+						<!-- LAYERS -->
+						<div class="tp-caption rs-caption-1 sft start"
+							data-x="center"
+							data-hoffset="0"
+							data-y="100"
+							data-speed="800"
+							data-start="2000"
+							data-easing="Back.easeInOut"
+							data-endspeed="300">
+							BOOST YOUR NETWORK
+						</div>
+
+						<!-- LAYER -->
+						<div class="tp-caption rs-caption-2 sft"
+							data-x="center"
+							data-hoffset="0"
+							data-y="200"
+							data-speed="1000"
+							data-start="3000"
+							data-easing="Power4.easeOut"
+							data-endspeed="300"
+							data-endeasing="Power1.easeIn"
+							data-captionhidden="off"
+							style="z-index: 6">
+							Turbocharge your network with <br>Next-Gen SD-WAN Solution.
+						</div>
+
+
+					</li>
+
+					<!-- SLIDE 2 -->
+					<li data-transition="slideup" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
+						<!-- MAIN IMAGE -->
+						<img src="assets/images/Slider-4.png" alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+						<!-- LAYERS -->
+						<div class="tp-caption rs-caption-1 sft start"
+							data-x="center"
+							data-hoffset="0"
+							data-y="100"
+							data-speed="800"
+							data-start="1500"
+							data-easing="Back.easeInOut"
+							data-endspeed="300">
+							Smarter Network
+						</div>
+
+						<!-- LAYER -->
+						<div class="tp-caption rs-caption-2 sft"
+							data-x="center"
+							data-hoffset="0"
+							data-y="200"
+							data-speed="1000"
+							data-start="2500"
+							data-easing="Power4.easeOut"
+							data-endspeed="300"
+							data-endeasing="Power1.easeIn"
+							data-captionhidden="off"
+							style="z-index: 6">
+							GSISD managed SD-WAN provide an automated <br>link switchover in case of link failures.
+						</div>
+
+					</li>
+
+					<!-- SLIDE 3 -->
+					<li data-transition="slideup" data-slotamount="5" data-masterspeed="700"  data-title="Slide 3">
+						<!-- MAIN IMAGE -->
+						<img src="assets/images/Slider-3.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+						<!-- LAYERS -->
+						<div class="tp-caption rs-caption-1 sft start"
+							data-x="center"
+							data-hoffset="0"
+							data-y="110"
+							data-speed="800"
+							data-start="1500"
+							data-easing="Back.easeInOut"
+							data-endspeed="300">
+							Next Gen Secure Enterprise SD-WAN
+						</div>
+
+						<!-- LAYER -->
+						<div class="tp-caption rs-caption-2 sfb"
+							data-x="center"
+							data-hoffset="0"
+							data-y="210"
+							data-speed="800"
+							data-start="2500"
+							data-easing="Power4.easeOut"
+							data-endspeed="300"
+							data-endeasing="Power1.easeIn"
+							data-captionhidden="off"
+							style="z-index: 6">
+							GSISd's network security products provide industry's top-rated<br> next generation firewall (NGFW) security
+						</div>
+
+					</li>
+
+                    <!-- SLIDE 4 -->
+					<li data-transition="slideup" data-slotamount="5" data-masterspeed="700"  data-title="Slide 4">
+						<!-- MAIN IMAGE -->
+						<img src="assets/images/Slider-1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+						<!-- LAYERS -->
+						<div class="tp-caption rs-caption-1 sft start"
+							data-x="center"
+							data-hoffset="0"
+							data-y="110"
+							data-speed="800"
+							data-start="1500"
+							data-easing="Back.easeInOut"
+							data-endspeed="300">
+							GSISD Cloud
+						</div>
+
+						<!-- LAYER -->
+						<div class="tp-caption rs-caption-2 sfb"
+							data-x="center"
+							data-hoffset="0"
+							data-y="210"
+							data-speed="800"
+							data-start="2500"
+							data-easing="Power4.easeOut"
+							data-endspeed="300"
+							data-endeasing="Power1.easeIn"
+							data-captionhidden="off"
+							style="z-index: 6">
+							Take advantage of multi cloud <br>Networking-As-Service.
+						</div>
+
+					</li>
+
+				</ul>
+				<div class="tp-bannertimer tp-bottom"></div>
+				<div class="tp-dottedoverlay twoxtwo"></div>
+			</div>
+		</div>
+	</section>
+	<!-- End Intro Section -->
   <!--home slider-->
 
   <!--home about us-->
@@ -121,10 +220,10 @@
   </section>
   <!--our feature-->
 
-  <footer class="footer gridtile text-white">
+
 
   <!--gateways-->
-  <section class="gateways spacer">
+  <section class="gateways gsid-solutions gridtile spacer">
     <div class="container">
       <h2 class="main-title text-center text-white">What are GSISD’s SD-WAN <br>Solutions?</h2>
       <div class="row mt-5">
@@ -132,7 +231,7 @@
           <div class="card text-white p-2" style="background-color: #c8c6a7;">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Manage</h5>
-                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
+                <a href="solutions.php?#sdsolutions" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -140,7 +239,7 @@
           <div class="card text-white p-2" style="background-color:#6e7c7c">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Connect</h5>
-                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
+                <a href="solutions.php?#sdsolutions" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -148,7 +247,7 @@
           <div class="card text-white p-2" style="background-color:#435560">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Optimize</h5>
-                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
+                <a href="solutions.php?#sdsolutions" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -156,7 +255,7 @@
           <div class="card text-white p-2" style="background-color:#ffc288">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Cloud</h5>
-                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
+                <a href="solutions.php?#sdsolutions" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -164,7 +263,7 @@
           <div class="card text-white p-2" style="background-color:#00adb5">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Secure</h5>
-                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
+                <a href="solutions.php?#sdsolutions2" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -172,7 +271,7 @@
           <div class="card text-white p-2" style="background-color:#aad8d3">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Insights</h5>
-                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
+                <a href="solutions.php?#sdsolutions2" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -180,7 +279,7 @@
           <div class="card text-white p-2" style="background-color:#393e46">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">Licensing</h5>
-                <a href="solutions.php" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
+                <a href="solutions.php?#sdsolutions2" class="btn btn-outline-light rounded-pill px-3 btn-sm">Learn More</a>
             </div>
           </div>
         </div>
@@ -191,28 +290,20 @@
 
 </section>
 
-<!--footer-->
 
-<div class="footer__copyright border-top">
-      <p class="text-dark mb-0">2021 © All Rights Reserved.</p>
-    </div>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<?php include 'footer.php';?>
+
+  <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/slick.min.js"></script>
   <script src="assets/js/main.js"></script>
+	<script src="assets/js/jquery.easing.min.js"></script>
+	<script src="assets/js/jquery.themepunch.tools.min.js"></script>
+	<script src="assets/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="assets/js/revolution-slider.js"></script>
   <script>
     $().ready(function(){
-      $('.homeslider').slick({
-        arrows: true,
-        dots: true,
-        slidesToShow: 1,
-        infinite: false,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        pauseOnHover: false
-      });
+      RevolutionSlider.initRSfullScreen();
   });
   </script>
 

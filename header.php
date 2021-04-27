@@ -17,8 +17,8 @@
                             <li><a class="dropdown-item" href="vnf.php">VNF</a></li>
             </ul>
           </li>
-          <li><a href="#" class="nav-link px-2 link-light">Partners <span class="d-inline-block ms-2 h6 mb-0">•</span></a>
-          </li>
+          <!-- <li><a href="#" class="nav-link px-2 link-light">Partners <span class="d-inline-block ms-2 h6 mb-0">•</span></a>
+          </li> -->
           <li><a href="contact-us.php" class="nav-link px-2 link-light">Contact Us</a></li>
         </ul>
       </div>

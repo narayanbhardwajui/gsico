@@ -133,12 +133,7 @@
 
 //footer
 .footer {
-    background: url(https://i.ibb.co/Tw3pLqv/3.jpg) no-repeat center fixed;
-    background-size: cover;
 
-    &:after {
-        background-color: rgba(0, 0, 0, 0.7);
-    }
 
     &__top {
         padding: 100px 0;
@@ -188,17 +183,28 @@
     }
 }
 
+.gsid-solutions {
+    background: url(https://i.ibb.co/Tw3pLqv/3.jpg) no-repeat center fixed;
+    background-size: cover;
+
+    &:after {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .card {
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
 .gateways {
     .card {
         transition: 0.3s linear;
-        cursor: pointer;
         height: 100%;
-        //box-shadow: 0 5px 10px rgb(154 160 185 / 5%), 0 15px 40px rgb(166 173 201 / 20%);
-        border: 0;
+        box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05);
 
-        // &:hover {
-        //     transform: scale(1.05);
-        // }
+
     }
 
     &__list {
@@ -229,9 +235,42 @@
         }
     }
 }
+
 .edgedevice__banner {
     background: url(../images/GSISD-Edge-Devices.jpg) no-repeat center !important;
 }
+
 .vnf__banner {
     background: url(../images/GSISD-Virtual-Network-Functions.jpg) no-repeat center !important;
+}
+
+//slider
+.rs-caption-1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 200;
+    padding: 6px 75px;
+    position: relative;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+}
+
+.rs-caption-2 {
+    color: #fff;
+    position: relative;
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 40px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.tp-dottedoverlay {
+    z-index: 1 !important;
+}
+.intro-section {
+    background: #222;
+}
+.redgradient {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(218,45,18,0.6));
 }
