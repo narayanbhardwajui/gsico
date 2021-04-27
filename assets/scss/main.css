@@ -319,6 +319,10 @@ h3 {
   background-color: #e2e3e5;
 }
 
+.accordion-button {
+  background: linear-gradient(to right, white, rgba(218, 45, 18, 0.6));
+}
+
 .tp-static-layers {
   position: absolute;
   z-index: 505;
