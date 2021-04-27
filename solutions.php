@@ -70,16 +70,16 @@
         <div class="row mt-5">
           <div class="col-3 mb-2">
             <div class="card text-white" style="border-color: #c8c6a7;">
-              <h5 class="fw-bold card-title text-white h5 card-header"
+              <h5 class="fw-bold card-title text-white h4 card-header"
                 style="background-color: #c8c6a7;border-color: #c8c6a7;">GSISd Manage</h5>
               <div class="card-body text-center">
                 <ul class="gateways__list">
-                  <li>Global Managed Service</li>
+                  <li>Managed Service</li>
+                  <li>Predictive Analytics</li>
                   <li>Cloud Orchestration</li>
                   <li>Worldwide SLAs – 5-9s, Day-1 SLA</li>
-                  <li>Predictive Analytics</li>
+                  <li>Flexible Subscriptions</li>
                   <li>ANAP – Secure Managed CPE</li>
-                  <li>Elastic Subscriptions</li>
                 </ul>
               </div>
             </div>
@@ -91,11 +91,11 @@
               <div class="card-body text-center">
                 <ul class="gateways__list">
                   <li>S2S InternetVPN (HybridWAN)</li>
-                  <li>Aryaka Core (PoPs)</li>
                   <li>Inter-Region Usage</li>
+                  <li>GSISD Core (PoPs)</li>
                   <li>Bursting</li>
+                  <li>Last Mile Services</li>
                   <li>High Availability (CPE/PoP)</li>
-                  <li>Last Mile Management / Last Mile Services</li>
                 </ul>
               </div>
             </div>
@@ -105,10 +105,9 @@
               <h5 class="fw-bold card-title text-white h4 card-header"
                 style="background-color: #435560;border-color: #435560;">GSISd Optimize</h5>
               <div class="card-body text-center">
-
                 <ul class="gateways__list">
+                   <li>TurboApp - Application Acceleration</li>
                   <li>TurboNet - Network Acceleration</li>
-                  <li>TurboApp - Application Acceleration</li>
                 </ul>
               </div>
             </div>
@@ -120,8 +119,8 @@
               <div class="card-body text-center">
 
                 <ul class="gateways__list">
-                  <li>Azure VWAN (HybridWAN)</li>
                   <li>SaaS Acceleration</li>
+                  <li>Azure VWAN (HybridWAN)</li>
                   <li>IaaS Direct Connect (AWS, Azure, etc.)</li>
                 </ul>
               </div>
@@ -135,12 +134,11 @@
               <h5 class="fw-bold card-title text-white h4 card-header"
                 style="background-color: #00adb5;border-color: #00adb5;">GSISd Secure</h5>
               <div class="card-body text-center">
-
-                <ul class="gateways__list">
-                  <li>Edge Essentials (Firewall, Micro-Segmentation)</li>
-                  <li>Cloud Security Connector</li>
+              <ul class="gateways__list">
                   <li>Virtual Firewall Hosting</li>
                   <li>Secure Remote Access</li>
+                  <li>Edge Essentials (Firewall, Micro-Segmentation)</li>
+                  <li>Cloud Security Connector</li>
                 </ul>
               </div>
             </div>
@@ -150,12 +148,12 @@
               <h5 class="fw-bold card-title text-white card-header h4"
                 style="background-color: #aad8d3;border-color: #aad8d3;">GSISd Insights</h5>
               <div class="card-body text-center">
-
                 <ul class="gateways__list">
-                  <li>Aryaka Cloud Portal, Dashboards</li>
-                  <li>Global Self-Service</li>
-                  <li>Application, Cloud, and Flow Visibility</li>
+                <li>Global Self-Service</li>
+                  <li>GSISD Cloud Dashboards</li>
+                  <li>Actionable Insights</li>
                   <li>First, Middle, and Last-Mile Performance Management</li>
+                  <li>Application, Cloud, and Flow Visibility</li>
                 </ul>
               </div>
             </div>
@@ -165,12 +163,9 @@
               <h5 class="fw-bold card-title text-white card-header h4"
                 style="background-color: #393e46;border-color: #393e46;">Licensing</h5>
               <div class="card-body text-center">
-
                 <ul class="gateways__list">
-                  <li>Aryaka Cloud Portal, Dashboards</li>
-                  <li>Global Self-Service</li>
-                  <li>Application, Cloud, and Flow Visibility</li>
-                  <li>First, Middle, and Last-Mile Performance Management</li>
+                  <li>Site (small, medium, large)</li>
+                  <li>Subscribed bandwidth (SBW + HybridWAN +DIA)</li>
                 </ul>
               </div>
             </div>
@@ -243,7 +238,7 @@
     <section class="sdwan__cta gridtile">
       <div class="container">
         <div class="row">
-          <h2 class="text-center mb-4 display-6 text-white">Have Questions/Concerns?</h2>
+          <h2 class="text-center mb-4 display-6 text-white">Query Or Concerns?</h2>
           <div class="form-group text-center">
             <a href="#" class="btn btn-danger rounded-pill px-4">Contact Us</a>
           </div>

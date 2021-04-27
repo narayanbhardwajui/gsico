@@ -24,7 +24,7 @@
 			<div class="fullscreenbanner">
 				<ul>
 					<!-- SLIDE 1 -->
-					<li data-transition="curtain-1" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+					<li data-transition="curtain-1" data-slotamount="5" data-masterspeed="700" data-title="BOOST YOUR NETWORK">
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -59,9 +59,9 @@
 					</li>
 
 					<!-- SLIDE 2 -->
-					<li data-transition="slideup" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
+					<li data-transition="slideup" data-slotamount="5" data-masterspeed="1000" data-title="Smarter Network">
 						<!-- MAIN IMAGE -->
-						<img src="assets/images/Slider-4.png" alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+						<img src="assets/images/Slider-4.jpg" alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
 						<!-- LAYERS -->
 						<div class="tp-caption rs-caption-1 sft start"
@@ -93,7 +93,7 @@
 					</li>
 
 					<!-- SLIDE 3 -->
-					<li data-transition="slideup" data-slotamount="5" data-masterspeed="700"  data-title="Slide 3">
+					<li data-transition="slideup" data-slotamount="5" data-masterspeed="700"  data-title="Next Gen Secure Enterprise SD-WAN">
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-3.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -127,7 +127,7 @@
 					</li>
 
                     <!-- SLIDE 4 -->
-					<li data-transition="slideup" data-slotamount="5" data-masterspeed="700"  data-title="Slide 4">
+					<li data-transition="slideup" data-slotamount="5" data-masterspeed="700"  data-title="GSISD Cloud">
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -155,7 +155,7 @@
 							data-endeasing="Power1.easeIn"
 							data-captionhidden="off"
 							style="z-index: 6">
-							Take advantage of multi cloud <br>Networking-As-Service.
+							Take advantage of multi cloud <br>network As-A-Service.
 						</div>
 
 					</li>

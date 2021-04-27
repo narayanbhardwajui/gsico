@@ -68,19 +68,12 @@
       <th colspan="2">Platform</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <td>Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
+  <tbody>               <tr><td>Form Factor </td><td>Desktop</td></tr>
+<tr><td>Processor Options</td><td>Intel® Atom® C2316 (Rangeley) </td></tr>
+<tr><td>CPU Socket</td><td>Onboard</td></tr>
+<tr><td>Chipset</td><td>SoC</td></tr>
+<tr><td>Security Acceleration</td><td>Intel® QuickAssist Technology</td></tr>
+<tr><td>BIOS </td><td>AMI SPI Flash BIOS</td></tr>
   </tbody>
 </table>
                   </div>
