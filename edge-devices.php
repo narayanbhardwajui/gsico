@@ -55,7 +55,7 @@
           <div class="w-100 mt-3">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
-                <h2 class="accordion-header mt-0" id="headingThree">
+                <h2 class="accordion-header mt-0 h4" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Specifications
                   </button>
@@ -64,29 +64,21 @@
                   <div class="accordion-body">
 <table class="table table-bordered">
   <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+    <tr class="table-secondary text-center">
+      <th colspan="2">Platform</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
+      <td>Larry the Bird</td>
       <td>@twitter</td>
     </tr>
   </tbody>

@@ -306,6 +306,19 @@ h3 {
   background: linear-gradient(to right, white, rgba(218, 45, 18, 0.6));
 }
 
+.mat-card {
+  padding: 30px;
+}
+
+.accordion-button {
+  font-size: inherit;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #c00000;
+  background-color: #e2e3e5;
+}
+
 .tp-static-layers {
   position: absolute;
   z-index: 505;
