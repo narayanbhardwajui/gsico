@@ -10,28 +10,31 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="assets/scss/main.css" rel="stylesheet">
-  <title></title>
+  <title>GSISD SDWAN Solutions</title>
 </head>
 
 <body>
 
   <?php include 'header.php';?>
 
-
-
-  <!--hero image-->
-  <section class="bgimage solution__banner gridtile">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-3">
-          <p class="text-white h3 mb-5">Deploy flexible and reliable modern applications and secured hybrid enterprise
+<!--video bg test-->
+<div class="section">
+<div class="row">
+<p>Deploy flexible and reliable modern applications and secured hybrid enterprise
             WAN with</p>
-          <h5>GSISD SD-WAN</h5>
+        <h1>GSISD SD-WAN</h1>
+</div>
+        <div class="video-container">
+            <video autoplay loop muted poster="assets/images/GSISD-SDWAN-Solution.jpg">
+                <source src="assets\images\video.mp4" type="video/mp4">
+            </video>
         </div>
-      </div>
+
     </div>
-  </section>
-  <!--hero image-->
+    
+<!--video bg test-->
+
+  
   <main class="">
     <section class="sdwan">
       <div class="container">
