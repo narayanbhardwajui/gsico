@@ -72,14 +72,11 @@
 
 </main>
 
-<div class="footer__copyright border-top">
-      <p class="text-dark mb-0">2021 © All Rights Reserved.</p>
-    </div>
+<?php include 'footer.php';?>
 
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/main.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
