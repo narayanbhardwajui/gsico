@@ -241,6 +241,10 @@ h3 {
   top: -2px;
 }
 
+.edge__devices .card {
+  box-shadow: 0 2px 2px 0 #d8d6d6;
+}
+
 .edgedevice__banner {
   background: url(../images/GSISD-Edge-Devices.jpg) no-repeat center !important;
 }

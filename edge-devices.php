@@ -34,57 +34,76 @@
     <section class="edge__devices">
       <div class="container">
         <h2 class="bg-secondary text-white p-1 ps-3 mb-4 text-center mt-5">Our Edge Devices Range</h2>
-        <div class="row mb-5">
-          <div class="col">
-            <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 700</h2>
-            <p><img class="" src="https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/e800l.png" alt=""
-                ></p>
-          </div>
-          <div class="col redgradient pt-4 rounded">
-            <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
-                style="width:18px;height:18px"></span>Features</h3>
-            <ul class="p-0 m-0 lead" style="list-style-position: inside;">
-              <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
-              <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
-              <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
-              <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
-              <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
-            </ul>
-          </div>
-
-          <div class="w-100 mt-3">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header mt-0 h4" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Specifications
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-<table class="table table-bordered">
-  <thead>
-    <tr class="table-secondary text-center">
-      <th colspan="2">Platform</th>
-    </tr>
-  </thead>
-  <tbody>               <tr><td>Form Factor </td><td>Desktop</td></tr>
-<tr><td>Processor Options</td><td>Intel® Atom® C2316 (Rangeley) </td></tr>
-<tr><td>CPU Socket</td><td>Onboard</td></tr>
-<tr><td>Chipset</td><td>SoC</td></tr>
-<tr><td>Security Acceleration</td><td>Intel® QuickAssist Technology</td></tr>
-<tr><td>BIOS </td><td>AMI SPI Flash BIOS</td></tr>
-  </tbody>
-</table>
+        <div class="card p-5 mb-5">
+          <div class="row">
+            <div class="col">
+              <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 700</h2>
+              <p><img class="" src="https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/e800l.png" alt=""></p>
+            </div>
+            <div class="col redgradient pt-4 rounded">
+              <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
+                  style="width:18px;height:18px"></span>Features</h3>
+              <ul class="p-0 m-0 lead" style="list-style-position: inside;">
+                <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
+                <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
+                <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
+                <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
+                <li class="mb-1">Interfaces 4 x GbE, USB 3G/4G, WiFi</li>
+              </ul>
+            </div>
+            <div class="w-100 mt-3 px-0">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header mt-0 h4" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Specifications
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <table class="table table-bordered">
+                        <thead>
+                          <tr class="table-secondary text-center">
+                            <th colspan="2">Platform</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Form Factor </td>
+                            <td>Desktop</td>
+                          </tr>
+                          <tr>
+                            <td>Processor Options</td>
+                            <td>Intel® Atom® C2316 (Rangeley) </td>
+                          </tr>
+                          <tr>
+                            <td>CPU Socket</td>
+                            <td>Onboard</td>
+                          </tr>
+                          <tr>
+                            <td>Chipset</td>
+                            <td>SoC</td>
+                          </tr>
+                          <tr>
+                            <td>Security Acceleration</td>
+                            <td>Intel® QuickAssist Technology</td>
+                          </tr>
+                          <tr>
+                            <td>BIOS </td>
+                            <td>AMI SPI Flash BIOS</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-
-
         </div>
+
         <div class="row mb-5">
           <h2 class="bg-secondary text-white p-1 ps-3 mb-4 w-100">Medium Branch</h2>
           <div class="col">
@@ -213,7 +232,7 @@
 
   </main>
 
-<?php include 'footer.php';?>
+  <?php include 'footer.php';?>
 
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
