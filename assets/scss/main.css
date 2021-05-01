@@ -188,8 +188,9 @@ h3 {
   font-size: 25px;
   text-align: center;
   display: inline-block;
-  color: #fff;
-  background: #c00000;
+  color: #c00000;
+  font-weight: 600;
+  background: #fff;
   border: 1px solid #dee2e6;
   border-radius: 50%;
   width: 40px;
@@ -204,6 +205,8 @@ h3 {
   position: relative;
   text-align: center;
   padding: 30px 0 25px;
+  background: #870000;
+  background: linear-gradient(to right, #190A05, #870000);
 }
 
 .gsid-solutions {

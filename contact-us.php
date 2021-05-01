@@ -47,16 +47,16 @@
             <form class="contact-form h-100">
               <h3 class="h3 mb-3 text-danger">Have Us Contact You</h3>
               <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Enter your name">
+                <input type="text" class="form-control" placeholder="Enter your name" name="userName">
               </div>
               <div class="mb-3">
-                <input type="number" class="form-control" placeholder="Enter your phone number">
+                <input type="number" class="form-control" placeholder="Enter your phone number" name="userPhone">
               </div>
               <div class="mb-3">
-                <input type="email" class="form-control" placeholder="Enter your email">
+                <input type="email" class="form-control" placeholder="Enter your email" name="userEmail">
               </div>
               <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Enter your company name">
+                <input type="text" class="form-control" placeholder="Enter your company name" name="userMsg">
               </div>
               <button type="submit" class="btn btn-danger w-100 rounded-pill">Submit</button>
               <p class="mt-5"><i class="fa fa-info-circle me-1"></i>I agree to be contacted by GSISD and GSISD partners.
