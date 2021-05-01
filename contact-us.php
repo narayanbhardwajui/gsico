@@ -26,10 +26,10 @@
       $email=$_POST['userEmail'];
       $message=$_POST['userMsg'];
       $phone=$_POST['userPhone'];
-      $message=$message  . " \r\n Phone no: " .$phone ;
+      $message=" \r\n Name: " .$from . " \r\n Phone no: " .$phone . " \r\n Email: " .$email . " \r\n Message: " .$message ;
       $from="From: $name<$email>\r\nReturn-path: $email";
-      $subject="Enquiry for Company";
-      mail("mail id here", $subject, $message, $from);
+      $subject="Enquiry Form";
+      mail("narayan3721@gmail.com", $subject, $message, $from);
       echo
       "<script type=\"text/javascript\">".
       "window.alert('Thanks for posting query we will get back to you very soon');".
@@ -44,7 +44,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <form class="contact-form h-100">
+            <form class="contact-form h-100" method="POST">
               <h3 class="h3 mb-3 text-danger">Have Us Contact You</h3>
               <div class="mb-3">
                 <input type="text" class="form-control" placeholder="Enter your name" name="userName">
@@ -58,7 +58,7 @@
               <div class="mb-3">
                 <input type="text" class="form-control" placeholder="Enter your company name" name="userMsg">
               </div>
-              <button type="submit" class="btn btn-danger w-100 rounded-pill">Submit</button>
+              <input type="submit" class="btn btn-danger w-100 rounded-pill" name="submitbutton" value="Submit">
               <p class="mt-5"><i class="fa fa-info-circle me-1"></i>I agree to be contacted by GSISD and GSISD partners.
               </p>
             </form>
