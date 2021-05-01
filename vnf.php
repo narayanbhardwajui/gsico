@@ -41,14 +41,14 @@
         <div class="col-6">
           <figure class="px-5">
             <h3 class="h3">Palo Alto Networks Firewall</h3>
-            <img src="https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/paloalto-768x576.png" alt=""
+            <img src="assets\images\paloalto-GSISD-VNF.png" alt=""
               class="img-fluid">
           </figure>
         </div>
         <div class="col-6">
           <figure class="px-5">
             <h3 class="h3">Suricata Firewall</h3>
-            <img src="https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/suricata.png" alt="" class="img-fluid">
+            <img src="assets\images\suricata-GSISD-VNF.png" alt="" class="img-fluid">
           </figure>
         </div>
       </div>
@@ -56,14 +56,14 @@
         <div class="col-6">
           <figure class="px-5">
             <h3 class="h3">Sangoma Property Manager PBX</h3>
-            <img src="https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/sangoma.png" alt=""
+            <img src="assets\images\sangoma-GSISD-VNF.png" alt=""
               class="img-fluid">
           </figure>
         </div>
         <div class="col-6">
           <figure class="px-5">
             <h3 class="h3">Sangoma Property Manager PBX</h3>
-            <img src="https://www.hermesnetwork.cloud/wp-content/uploads/2020/12/sureline.png" alt="" class="img-fluid">
+            <img src="assets\images\sureline-GSISD-VNF.png" alt="" class="img-fluid">
           </figure>
         </div>
       </div>
