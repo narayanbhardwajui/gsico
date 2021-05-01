@@ -135,16 +135,26 @@
 .footer {
     .page-scroll {
         cursor: pointer;
+        transition: 0.2s linear;
+        position: relative;
+        top: 0;
+        &:hover {
+            top: -5px;
+        }
     }
 
     i {
-        padding: 8px 10px;
-        font-size: 18px;
+        font-size: 25px;
         text-align: center;
         display: inline-block;
-        color: #000;
-        background: #fff;
+        color: #fff;
+        background: #c00000;
         border: 1px solid #dee2e6;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: grid;
+        place-content: center;
     }
 
     &__copyright {
