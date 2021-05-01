@@ -24,7 +24,7 @@
 			<div class="fullscreenbanner">
 				<ul>
 					<!-- SLIDE 1 -->
-					<li data-transition="curtain-1" data-onHoverstop="off" data-delay="4000" data-slotamount="5" data-masterspeed="700" data-title="BOOST YOUR NETWORK">
+					<li data-transition="curtain-1" data-pause="false" data-delay="4000" data-slotamount="5" data-masterspeed="700" data-title="BOOST YOUR NETWORK" data-frame='[{}]'>
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -59,7 +59,7 @@
 					</li>
 
 					<!-- SLIDE 2 -->
-					<li data-transition="slideup" data-onHoverstop="off" data-delay="4000" data-slotamount="5" data-masterspeed="1000" data-title="Smarter Network">
+					<li data-transition="slideup" data-pause="false" data-delay="4000" data-slotamount="5" data-masterspeed="1000" data-title="Smarter Network">
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-4.jpg" alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -93,7 +93,7 @@
 					</li>
 
 					<!-- SLIDE 3 -->
-					<li data-transition="slideup" data-onHoverstop="off" data-delay="4000" data-slotamount="5" data-masterspeed="700"  data-title="Next Gen Secure Enterprise SD-WAN">
+					<li data-transition="slideup" data-pause="false" data-delay="4000" data-slotamount="5" data-masterspeed="700"  data-title="Next Gen Secure Enterprise SD-WAN">
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-3.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -127,7 +127,7 @@
 					</li>
 
                     <!-- SLIDE 4 -->
-					<li data-transition="slideup" data-onHoverstop="off" data-delay="4000" data-slotamount="5" data-masterspeed="700"  data-title="GSISD Cloud">
+					<li data-transition="slideup" data-pause="false" data-delay="4000" data-slotamount="5" data-masterspeed="700"  data-title="GSISD Cloud">
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -305,6 +305,7 @@
     $().ready(function(){
       RevolutionSlider.initRSfullScreen();
   });
+
   </script>
 
 </body>

@@ -17,6 +17,7 @@ var RevolutionSlider = function() {
             hideCaptionAtLimit: "",
             dottedOverlay: "twoxtwo",
             navigationStyle: "preview4",
+            onHoverStop: 'off',
             fullScreenOffsetContainer: ""
           });
       });
