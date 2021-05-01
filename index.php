@@ -175,7 +175,7 @@
         <div class="row">
             <div class="col-8 offset-2 text-center">
                 <h2 class="main-title mb-4 text-center">About GSISD SD-WAN</h2>
-                <p class="lead mb-4">GSISD managed SD-WAN helps simplify your WAN environment by establishing a consolidated plane across differing networks. We provide a centrally hosted solution to remotely program edge devices and make changes in real-time. With Network-as-a-Service, you can be confident of maximum performance at zero vendor lock-in.</p>
+                <p class="lead mb-4">GSISD managed SD-WAN helps simplify your WAN environment by establishing a consolidated plane across differing networks. We provide a centrally hosted solution to remotely program edge devices and make changes in real-time. With Network-as-a-Service, you can be confident of maximum performance.</p>
                 <a href="solutions.php" class="btn btn-danger rounded-pill px-4">Learn More</a>
             </div>
         </div>
