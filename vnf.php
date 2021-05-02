@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="assets/scss/main.css" rel="stylesheet">
-  <title>GSISD | Contact us</title>
+  <title>GSISD | VNFs</title>
+  <meta name="description" content="GSISD provides built-in VNFs and make it more than a router."/>
 </head>
 <body>
 
@@ -41,14 +42,14 @@
         <div class="col-6">
           <figure class="px-5">
             <h3 class="h3">Palo Alto Networks Firewall</h3>
-            <img src="assets\images\paloalto-GSISD-VNF.png" alt=""
+            <img src="assets\images\paloalto-GSISD-VNF.png" alt="GSISD VNF1"
               class="img-fluid">
           </figure>
         </div>
         <div class="col-6">
           <figure class="px-5">
             <h3 class="h3">Suricata Firewall</h3>
-            <img src="assets\images\suricata-GSISD-VNF.png" alt="" class="img-fluid">
+            <img src="assets\images\suricata-GSISD-VNF.png" alt="GSISD VNF2" class="img-fluid">
           </figure>
         </div>
       </div>
@@ -56,14 +57,14 @@
         <div class="col-6">
           <figure class="px-5">
             <h3 class="h3">Sangoma Property Manager PBX</h3>
-            <img src="assets\images\sangoma-GSISD-VNF.png" alt=""
+            <img src="assets\images\sangoma-GSISD-VNF.png" alt="GSISD VNF3"
               class="img-fluid">
           </figure>
         </div>
         <div class="col-6">
           <figure class="px-5">
             <h3 class="h3">Sangoma Property Manager PBX</h3>
-            <img src="assets\images\sureline-GSISD-VNF.png" alt="" class="img-fluid">
+            <img src="assets\images\sureline-GSISD-VNF.png" alt="GSISD VNF4" class="img-fluid">
           </figure>
         </div>
       </div>

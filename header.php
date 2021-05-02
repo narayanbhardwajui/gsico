@@ -8,8 +8,8 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 text-uppercase align-items-center">
-          <li><a href="solutions.php" class="nav-link px-2 link-light">Our SD-WAN Solution <span
-                class="d-inline-block ms-2 h6 mb-0">•</span></a></li>
+          <li><a href="solutions.php" class="nav-link px-2 link-light">Our SD-WAN Solution 
+          </a></li>
           <li class="dropdown"><a href="#" class="nav-link px-2 link-light dropdown-toggle" id="productLink"
               data-bs-toggle="dropdown" aria-expanded="false">Our Products</a>
             <ul class="dropdown-menu" aria-labelledby="productLink">
@@ -21,6 +21,13 @@
           </li> -->
           <li><a href="contact-us.php" class="nav-link px-2 link-light">Contact Us</a></li>
         </ul>
+
+
+
+
       </div>
+
+
+
     </div>
   </header>

@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="assets/scss/main.css" rel="stylesheet">
-  <title>GSISD SDWAN Solutions</title>
+  <title>GSISd | Our SD-WAN Solution</title>
+  <meta name="description" content="Get GSISD SD-WAN solution for your business that gives security with flexibility."/>
 </head>
 
 <body>
@@ -50,7 +51,7 @@
         <div class="row spacer">
           <h2 class="main-title mb-4 text-center">What is SD-WAN?</h2>
           <div class="col my-auto">
-            <img src="assets\images\GSISD SDWAN.png" alt="" class="img-fluid">
+            <img src="assets\images\GSISD SDWAN.png" alt="GSISD SDWAN" class="img-fluid">
           </div>
           <div class="col lead mt-5 px-5">
             <p>
@@ -185,51 +186,51 @@
         <h2 class="main-title mb-4 text-center">GSISD Advantages</h2>
         <div class="row mt-5">
           <div class="col-4 text-center mb-5">
-            <div class="display-5 mb-3"><img src="assets/images/solutions/Integrated_security_with_NGFW_GSISd.png"
+            <div class="display-5 mb-3"><img src="assets/images/solutions/Integrated_security_with_NGFW_GSISd.png" alt="Integrated security with NGFW_GSISD"
                 width="100px" height="100px"></div>
             <h3 class="h5 fw-bold mb-2 text-danger">Integrated security <br>with NGFW</h3>
           </div>
           <div class="col-4 text-center mb-5">
-            <div class="display-5 mb-3"><img src="assets/images/solutions/SinglePointOfContact_GSISd.png" width="100px"
+            <div class="display-5 mb-3"><img src="assets/images/solutions/SinglePointOfContact_GSISd.png" alt="Single Point Of Contact_GSISd" width="100px"
                 height="100px"></div>
             <h3 class="h5 fw-bold mb-2 text-danger">Support Through <br>Singlepoint-Of-Contact</h3>
           </div>
           <div class="col-4 text-center mb-5">
-            <div class="display-5 mb-3"><img src="assets/images/solutions/SLA_GSISd.png" width="100px" height="100px">
+            <div class="display-5 mb-3"><img src="assets/images/solutions/SLA_GSISd.png" alt="SLA_GSISd" width="100px" height="100px">
             </div>
             <h3 class="h5 fw-bold mb-2 text-danger">SLAs Via Converged <br>Backbone From 1st day
             </h3>
           </div>
           <div class="col-4 text-center mb-5">
-            <div class="display-5 mb-3"><img src="assets/images/solutions/Multi_Cloud_Direct_Links_GSISd.png"
+            <div class="display-5 mb-3"><img src="assets/images/solutions/Multi_Cloud_Direct_Links_GSISd.png" alt="Multi-Cloud Direct Links_GSISd"
                 width="100px" height="100px"></div>
             <h3 class="h5 fw-bold mb-2 text-danger">Multi-Cloud Direct<br> Links</h3>
           </div>
           <div class="col-4 text-center mb-5">
-            <div class="display-5 mb-3"><img src="assets/images/solutions/Flexibility_GSISd.png" width="100px"
+            <div class="display-5 mb-3"><img src="assets/images/solutions/Flexibility_GSISd.png" alt="Flexibility" width="100px"
                 height="100px"></div>
             <h3 class="h5 fw-bold mb-2 text-danger">Flexibility</h3>
           </div>
           <div class="col-4 text-center mb-5">
-            <div class="display-5 mb-3"><img src="assets/images/solutions/Edge_And_Cloud_Security_GSISd.png"
+            <div class="display-5 mb-3"><img src="assets/images/solutions/Edge_And_Cloud_Security_GSISd.png" alt="OPEX Based Cloud Consumption Model GSISD"
                 width="100px" height="100px"></div>
             <h3 class="h5 fw-bold mb-2 text-danger">OPEX Based Cloud<br> Consumption Model
             </h3>
           </div>
           <div class="col-4 text-center mb-5">
-            <div class="display-5 mb-3"><img src="assets/images/solutions/Edge_And_Cloud_Security_GSISd.png"
+            <div class="display-5 mb-3"><img src="assets/images/solutions/Edge_And_Cloud_Security_GSISd.png" alt="Edge And Cloud Security_GSISd"
                 width="100px" height="100px"></div>
             <h3 class="h5 fw-bold mb-2 text-danger">Edge And Cloud<br> Security
             </h3>
           </div>
           <div class="col-4 text-center mb-5">
-            <div class="display-5 mb-3"><img src="assets/images/solutions/Centralized_Orchestration_GSISd.png"
+            <div class="display-5 mb-3"><img src="assets/images/solutions/Centralized_Orchestration_GSISd.png" alt="Centralized Orchestration_GSISd"
                 width="100px" height="100px"></div>
             <h3 class="h5 fw-bold mb-2 text-danger">Centralized Orchestration<br> With Advanced Analytics
             </h3>
           </div>
           <div class="col-4 text-center mb-5">
-            <div class="display-5 mb-3"><img src="assets/images/solutions/UpTime_GSISd.png" width="100px"
+            <div class="display-5 mb-3"><img src="assets/images/solutions/UpTime_GSISd.png" alt="UpTime_GSISd" width="100px"
                 height="100px"></div>
             <h3 class="h5 fw-bold mb-2 text-danger">99.99% Uptime
             </h3>

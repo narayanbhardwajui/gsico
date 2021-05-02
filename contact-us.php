@@ -13,6 +13,8 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="assets/scss/main.css" rel="stylesheet">
   <title>GSISD | Contact us</title>
+  <meta name="description" content="Get in touch with us to get quality technical products and services, 
+  while meeting high moral and ethical standards in the performance."/>
 </head>
 
 <body>
@@ -29,7 +31,7 @@
       $message=" \r\n Name: " .$from . " \r\n Phone no: " .$phone . " \r\n Email: " .$email . " \r\n Message: " .$message ;
       $from="From: $name<$email>\r\nReturn-path: $email";
       $subject="Enquiry Form";
-      mail("narayan3721@gmail.com", $subject, $message, $from);
+      mail("info@gsisd.net", $subject, $message, $from);
       echo
       "<script type=\"text/javascript\">".
       "window.alert('Thanks for posting query we will get back to you very soon');".
@@ -66,9 +68,7 @@
           <div class="col">
             <h3 class="h3">Contact Details:</h3>
             <address class="lead text-secondary lh-lg mb-3">
-              Telephone: +1 866-818-6006
-              <br>
-              Fax: +1 415-616-5101 <br>
+              Telephone: +1 (818) 697 2286 <br>
               E-mail:&nbsp;<a href="mailto:info@gsisd.net">info@gsisd.net</a>
             </address>
             <hr>

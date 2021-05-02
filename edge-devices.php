@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="assets/scss/main.css" rel="stylesheet">
-  <title></title>
+  <title>GSISD | EDGE Devices</title>
+  <meta name="description" content="GSISD Edge devices provide all-in-one cloud-accessible open computing platform."/>
 </head>
 
 <body>
@@ -40,7 +41,7 @@
           <div class="row">
             <div class="col">
               <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 700</h2>
-              <p><img class="" src="assets\images\E-700.png" alt=""></p>
+              <p><img class="" src="assets\images\E-700.png" alt="GSISD E-700"></p>
             </div>
             <div class="col redgradient pt-4 rounded">
               <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
@@ -356,11 +357,6 @@
                             </tr>
                           </tbody>
                         </table>
-
-
-
-
-
                       </div>
                     </div>
                   </div>
@@ -375,7 +371,7 @@
           <div class="row">
             <div class="col">
               <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 800</h2>
-              <p><img class="" src="assets\images\E-800.png" alt=""></p>
+              <p><img class="" src="assets\images\E-800.png" alt="GSISD E-800 "></p>
             </div>
             <div class="col redgradient pt-4 rounded">
               <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
@@ -710,7 +706,7 @@
           <div class="row">
             <div class="col">
               <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 2000</h2>
-              <p><img class="" src="assets\images\E-2000.png" alt=""></p>
+              <p><img class="" src="assets\images\E-2000.png" alt="GSISD E-2000"></p>
             </div>
             <div class="col redgradient pt-4 rounded">
               <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
@@ -1049,13 +1045,13 @@
           <div class="row">
             <div class="col">
               <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 3000</h2>
-              <p><img class="" src="assets\images\E-3000.png" alt=""></p>
+              <p><img class="" src="assets\images\E-3000.png" alt="GSISD E-3000"></p>
             </div>
             <div class="col redgradient pt-4 rounded">
               <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
                   style="width:18px;height:18px"></span>Features</h3>
               <ul class="p-0 m-0 lead" style="list-style-position: inside;">
-                <li class="mb-1">Intel® Atom™ C3000 CPU (4 ~16 Cores)</li>
+                <li class="mb-1">Intel® Atom® C3000 CPU (4 ~16 Cores)</li>
                 <li class="mb-1">1x GbE RJ45 Intel i210, 4x GbE RJ45 Intel i350-AM4, 4x SFP+
                   Intel Denverton Integrated (By SKU), 2x Pairs of Gen3 Bypass (By
                   SKU)</li>
