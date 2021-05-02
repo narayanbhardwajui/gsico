@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -16,9 +15,7 @@
   <meta name="description" content="Get in touch with us to get quality technical products and services, 
   while meeting high moral and ethical standards in the performance."/>
 </head>
-
 <body>
-
   <?php include 'header.php';?>
 
   <?php
@@ -41,7 +38,6 @@
 ?>
 
   <main class="content">
-
     <section class="sdwan spacer">
       <div class="container">
         <div class="row">
@@ -98,15 +94,10 @@
         </div>
       </div>
     </section>
-
   </main>
-
   <?php include 'footer.php';?>
-
-
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
-
 </html>

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -13,11 +12,8 @@
   <title>GSISD | EDGE Devices</title>
   <meta name="description" content="GSISD Edge devices provide all-in-one cloud-accessible open computing platform."/>
 </head>
-
 <body>
-
   <?php include 'header.php';?>
-
   <!--hero image-->
   <section class="bgimage solution__banner gridtile edgedevice__banner">
     <div class="container-fluid">
@@ -30,7 +26,6 @@
     </div>
   </section>
   <!--hero image-->
-
   <main class="">
     <section class="edge__devices">
       <div class="container">
@@ -122,7 +117,6 @@
                             </tr>
                           </tbody>
                         </table>
-
                         <table class="table table-bordered">
                           <thead>
                             <tr class="table-secondary text-center">
@@ -1377,16 +1371,11 @@
         </div>
         <!--E3000-->
       </div>
-
     </section>
-
   </main>
-
   <?php include 'footer.php';?>
-
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
-
 </html>

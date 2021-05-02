@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -15,9 +14,7 @@
   <meta name="description" content="GSISD provides built-in VNFs and make it more than a router."/>
 </head>
 <body>
-
 <?php include 'header.php';?>
-
   <!--hero image-->
   <section class="bgimage solution__banner gridtile vnf__banner">
     <div class="container-fluid">
@@ -30,12 +27,8 @@
     </div>
   </section>
   <!--hero image-->
-
 <main class="">
-
-
-
-  <section class="sdwan spacer">
+<section class="sdwan spacer">
     <div class="container">
     <h2 class="main-title mb-4 text-center">Increase your router capabilities with VNF onboarding.</h2>
       <div class="row mt-5">
@@ -70,14 +63,10 @@
       </div>
     </div>
   </section>
-
 </main>
-
 <?php include 'footer.php';?>
-
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
-
 </html>

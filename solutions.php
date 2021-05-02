@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -13,11 +12,8 @@
   <title>GSISd | Our SD-WAN Solution</title>
   <meta name="description" content="Get GSISD SD-WAN solution for your business that gives security with flexibility."/>
 </head>
-
 <body>
-
   <?php include 'header.php';?>
-
 <!--video bg test-->
 <div class="section">
 <div class="row">
@@ -30,12 +26,8 @@
                 <source src="assets\images\video.mp4" type="video/mp4">
             </video>
         </div>
-
     </div>
-    
 <!--video bg test-->
-
-  
   <main class="">
     <section class="sdwan">
       <div class="container">
@@ -46,8 +38,6 @@
             of managing network-related issues due to high bandwidth consuming apps. Take benefits of our economic,
             reliable and flexible SD-WAN deployed on a Network as a Service model.</p>
         </div>
-
-
         <div class="row spacer">
           <h2 class="main-title mb-4 text-center">What is SD-WAN?</h2>
           <div class="col my-auto">
@@ -66,7 +56,6 @@
         </div>
       </div>
     </section>
-
     <!--gateways-->
     <section class="gateways spacer border-top" id="sdsolutions">
       <div class="container">
@@ -176,11 +165,9 @@
           </div>
         </div>
         </div>
-
       </div>
     </section>
     <!--gateways-->
-
     <section class="sdwan__features spacer" style="background-color:#e8e9e9">
       <div class="container">
         <h2 class="main-title mb-4 text-center">GSISD Advantages</h2>
@@ -238,7 +225,6 @@
         </div>
       </div>
     </section>
-
     <section class="sdwan__cta gridtile">
       <div class="container">
         <div class="row">
@@ -249,14 +235,10 @@
         </div>
       </div>
     </section>
-
   </main>
-
 <?php include 'footer.php';?>
-
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
-
 </html>

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -14,11 +13,8 @@
   <meta name="description" content="Get GSISD Managed SD-Wan Services For Safe & Fast Connectivity. 
   Experience the Best-in-Class Connectivity & Secured Service WAN Infrastructure."/>
 </head>
-
 <body>
-
   <?php include 'header.php';?>
-
   <!--home slider-->
 	<!-- Intro Section -->
 	<section id="intro" class="intro-section">
@@ -29,7 +25,6 @@
 					<li data-transition="curtain-1" data-pause="false" data-delay="4000" data-slotamount="5" data-masterspeed="700" data-title="BOOST YOUR NETWORK" data-frame='[{}]'>
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-2.jpg" alt="GSISD SDWAN turbocharge network" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
 						<!-- LAYERS -->
 						<div class="tp-caption rs-caption-1 sft start"
 							data-x="center"
@@ -41,7 +36,6 @@
 							data-endspeed="300">
 							BOOST YOUR NETWORK
 						</div>
-
 						<!-- LAYER -->
 						<div class="tp-caption rs-caption-2 sft"
 							data-x="center"
@@ -56,15 +50,11 @@
 							style="z-index: 6">
 							Turbocharge your network with <br>Next-Gen SD-WAN Solution.
 						</div>
-
-
 					</li>
-
 					<!-- SLIDE 2 -->
 					<li data-transition="slideup" data-pause="false" data-delay="4000" data-slotamount="5" data-masterspeed="1000" data-title="Smarter Network">
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-4.jpg" alt="GSISD Smart SDWAN Network"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
 						<!-- LAYERS -->
 						<div class="tp-caption rs-caption-1 sft start"
 							data-x="center"
@@ -76,7 +66,6 @@
 							data-endspeed="300">
 							Smarter Network
 						</div>
-
 						<!-- LAYER -->
 						<div class="tp-caption rs-caption-2 sft"
 							data-x="center"
@@ -91,14 +80,11 @@
 							style="z-index: 6">
 							GSISD managed SD-WAN provide an automated <br>link switchover in case of link failures.
 						</div>
-
 					</li>
-
 					<!-- SLIDE 3 -->
 					<li data-transition="slideup" data-pause="false" data-delay="4000" data-slotamount="5" data-masterspeed="700"  data-title="Next Gen Secure Enterprise SD-WAN">
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-3.jpg"  alt="GSISD Secure Enterprise SDWAN"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
 						<!-- LAYERS -->
 						<div class="tp-caption rs-caption-1 sft start"
 							data-x="center"
@@ -110,7 +96,6 @@
 							data-endspeed="300">
 							Next Gen Secure Enterprise SD-WAN
 						</div>
-
 						<!-- LAYER -->
 						<div class="tp-caption rs-caption-2 sfb"
 							data-x="center"
@@ -125,14 +110,11 @@
 							style="z-index: 6">
 							GSISd's network security products provide industry's top-rated<br> next generation firewall (NGFW) security
 						</div>
-
 					</li>
-
-                    <!-- SLIDE 4 -->
+          <!-- SLIDE 4 -->
 					<li data-transition="slideup" data-pause="false" data-delay="4000" data-slotamount="5" data-masterspeed="700"  data-title="GSISD Cloud">
 						<!-- MAIN IMAGE -->
 						<img src="assets/images/Slider-1.jpg"  alt="GSISD Cloud"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
 						<!-- LAYERS -->
 						<div class="tp-caption rs-caption-1 sft start"
 							data-x="center"
@@ -144,7 +126,6 @@
 							data-endspeed="300">
 							GSISD Cloud
 						</div>
-
 						<!-- LAYER -->
 						<div class="tp-caption rs-caption-2 sfb"
 							data-x="center"
@@ -159,9 +140,7 @@
 							style="z-index: 6">
 							Take advantage of multi cloud <br>network As-A-Service.
 						</div>
-
 					</li>
-
 				</ul>
 				<div class="tp-bannertimer tp-bottom"></div>
 				<div class="tp-dottedoverlay twoxtwo"></div>
@@ -170,7 +149,6 @@
 	</section>
 	<!-- End Intro Section -->
   <!--home slider-->
-
   <!--home about us-->
   <section class="hm__aboutus spacer">
     <div class="container">
@@ -183,7 +161,6 @@
         </div>
     </div>
   </section>
-
   <!--our feature-->
   <section class="ourfeature spacer bg-light">
     <div class="container">
@@ -221,9 +198,6 @@
     </div>
   </section>
   <!--our feature-->
-
-
-
   <!--gateways-->
   <section class="gateways gsid-solutions gridtile spacer">
     <div class="container">
@@ -289,13 +263,8 @@
     </div>
   </section>
   <!--gateways-->
-
 </section>
-
-
-
 <?php include 'footer.php';?>
-
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
@@ -307,9 +276,6 @@
     $().ready(function(){
       RevolutionSlider.initRSfullScreen();
   });
-
   </script>
-
 </body>
-
 </html>

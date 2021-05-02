@@ -6,7 +6,6 @@
           class="logo h2 d-flex text-decoration-none me-5 fw-normal mb-0" style="font-family:Broadway;color: #c00000;">
           GSISd
         </a>
-
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 text-uppercase align-items-center">
           <li><a href="solutions.php" class="nav-link px-2 link-light">Our SD-WAN Solution 
           </a></li>
@@ -21,13 +20,6 @@
           </li> -->
           <li><a href="contact-us.php" class="nav-link px-2 link-light">Contact Us</a></li>
         </ul>
-
-
-
-
       </div>
-
-
-
     </div>
   </header>
