@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .text-primary {
     color: #4765a0 !important;
 }
@@ -19,6 +23,10 @@
     padding-bottom: 20px;
     text-transform: uppercase;
     position: relative;
+
+    @media (max-width:767px) {
+        font-size: 24px;
+    }
 
     &:after {
         bottom: 0;
@@ -51,54 +59,18 @@
         background: #fff;
         box-shadow: 0 0 3px #b5b5b5;
         padding: 0.75rem 1rem !important;
-
         .nav-link {
             color: #777 !important;
         }
     }
-
-    .nav-link {
-        margin-right: 15px;
-        color: #eee;
-        font-size: 13px;
-    }
 }
-
-
-//homeslider
-.homeslider {
-
-    img {
-        width: 100%;
-        max-height: 100vh;
-        object-fit: cover;
-    }
-
-    .slider-title {
-        border-top: 2px solid #fff;
-        border-bottom: 2px solid #fff;
-        padding: 10px;
-        text-transform: uppercase;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        .fa {
-            font-size: 16px;
-            margin: 0 30px;
-        }
-    }
-
-    figcaption {
-        z-index: 10;
-    }
-
-    .gridtile:after {
-        z-index: unset;
-    }
+.nav-link {
+    color: #eee !important;
+    margin-right: 15px;
 }
-
-
+.navbar-toggler {
+    background-color: #fff;
+}
 //ourfeature
 .spacer {
     padding: 80px 0;
@@ -109,25 +81,15 @@
 .gridtile {
     position: relative;
     z-index: 1;
-
     &:after {
         content: '';
-        background: rgba(0, 0, 0, 0.4) url(http://www.gsico.net/assets/plugins/revolution-slider/rs-plugin/assets/gridtile.png);
+        background: rgba(0, 0, 0, 0.4) url(../images/gridtile.png);
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         z-index: -1;
-    }
-}
-
-.nav-tabs .nav-link {
-    opacity: 0.8;
-    border-bottom: 0;
-
-    &.active {
-        opacity: 1;
     }
 }
 
@@ -157,7 +119,6 @@
         display: grid;
         place-content: center;
     }
-
     &__copyright {
         z-index: 1;
         background: #fff;
@@ -165,13 +126,13 @@
         text-align: center;
         padding: 30px 0 25px;
         background: #870000;
-    background: -webkit-linear-gradient(to right, #190A05, #870000);
-    background: linear-gradient(to right, #190A05, #870000);
+        background: -webkit-linear-gradient(to left, #190A05, #870000);
+        background: linear-gradient(to left, #190A05, #870000);
     }
 }
 
 .gsid-solutions {
-    background: url(http://www.gsico.net/assets/img/bg/img2.jpg) no-repeat center fixed;
+    background: url(../images/img2.jpg) no-repeat center fixed;
     background-size: cover;
 
     &:after {
@@ -190,8 +151,6 @@
         transition: 0.3s linear;
         height: 100%;
         box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05);
-
-
     }
 
     &__list {
@@ -238,6 +197,8 @@
 }
 
 //slider
+
+
 .rs-caption-1 {
     color: #fff;
     font-size: 50px;
@@ -246,6 +207,9 @@
     position: relative;
     border-top: solid 1px #fff;
     border-bottom: solid 1px #fff;
+    @media (max-width:767px) {
+        font-size: 26px !important;
+    }
 }
 
 .rs-caption-2 {
@@ -256,6 +220,10 @@
     line-height: 40px;
     padding: 10px 50px;
     text-align: center;
+        @media (max-width:767px) {
+        font-size: 18px !important;
+        line-height: 1.5 !important;
+    }
 }
 
 .tp-dottedoverlay {
@@ -265,11 +233,7 @@
     background: #222;
 }
 .redgradient {
-    background: linear-gradient(to right, rgb(255, 255, 255), rgba(218,45,18,0.6));
-}
-.mat-card {
-
-    padding: 30px;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(218,45,18,0.6));
 }
 .accordion-button {
     font-size: inherit;
@@ -279,5 +243,11 @@
     background-color: #e2e3e5;
 }
 .accordion-button {
-    background: linear-gradient(to right, white, rgba(218, 45, 18, 0.6));
+    background: linear-gradient(to left, white, rgba(218, 45, 18, 0.6));
+}
+
+.fullscreenbanner-container ,.tp-simpleresponsive > ul > li,.tp-dottedoverlay{
+    @media (max-width:767px) {
+        height: 50vh !important;
+    }
 }

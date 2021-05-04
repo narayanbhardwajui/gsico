@@ -13,6 +13,7 @@ $(window).scroll(function () {
 }); //missing );
 
 
+
  //Click event to scroll to top
  $('.page-scroll').click(function(){
     $('html, body').animate({scrollTop : 0},800);

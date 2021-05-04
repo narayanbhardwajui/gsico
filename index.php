@@ -10,7 +10,7 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="assets/scss/main.css" rel="stylesheet">
   <title>GSISD | SD-WAN</title>
-  <meta name="description" content="Get GSISD Managed SD-Wan Services For Safe & Fast Connectivity. 
+  <meta name="description" content="Get GSISD Managed SD-Wan Services For Safe & Fast Connectivity.
   Experience the Best-in-Class Connectivity & Secured Service WAN Infrastructure."/>
 </head>
 <body>
@@ -153,7 +153,7 @@
   <section class="hm__aboutus spacer">
     <div class="container">
         <div class="row">
-            <div class="col-8 offset-2 text-center">
+            <div class="col-md-8 offset-md-2 text-center">
                 <h2 class="main-title mb-4 text-center">About GSISD SD-WAN</h2>
                 <p class="lead mb-4">GSISD managed SD-WAN helps simplify your WAN environment by establishing a consolidated plane across differing networks. We provide a centrally hosted solution to remotely program edge devices and make changes in real-time. With Network-as-a-Service, you can be confident of maximum performance.</p>
                 <a href="solutions.php" class="btn btn-danger rounded-pill px-4">Learn More</a>
@@ -166,28 +166,28 @@
     <div class="container">
       <h2 class="main-title text-center">Why GSISD ?</h2>
       <div class="row mt-5">
-        <div class="col">
+        <div class="col-md-3">
           <div class="text-center">
             <img class="mb-2" src="assets/images/Shift-To-GSISD.png" alt="Shift To GSISD" width="80px" height="80px">
             <h3 class="mb-3">Seamless shift to<br> SD-WAN</h3>
             <p>GSISD Managed services provide a ready-to-deploy solution for businesses of any scale or size with end-to-end ownership by the GSISD team.</p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-3">
           <div class="text-center">
             <img class="mb-2" src="assets/images/GSISD-Turbochrge-Network.png" alt="GSISD Turbochrge Network" width="80px" height="80px">
             <h3 class="mb-3">Turbocharge Network<br> Performance</h3>
             <p>Our Next-Gen SD-WAN Solution with optimised unified overlay plane across disparate networks ensure consistent and speedy connection.</p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-3">
           <div class="text-center">
             <img class="mb-2" src="assets/images/GSISD-Secure-SDWAN.png" alt="GSISD Secure SDWAN" width="80px" height="80px">
             <h3 class="mb-3">Secure Enterprise<br> SD-WAN</h3>
             <p>With our industry-grade Next-Generation Firewall (NGFW) secure your networks from malicious attacks such as viruses, spyware and phishing attacks.</p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-3">
           <div class="text-center">
             <img src="assets/images/GSISD-Orchestrator.png" alt="GSISD Orchestrator" width="80px" height="80px" class="mb-2">
             <h3 class="mb-3">Network<br> Visibility</h3>
@@ -203,7 +203,7 @@
     <div class="container">
       <h2 class="main-title text-center text-white">What are GSISD’s SD-WAN <br>Solutions?</h2>
       <div class="row mt-5">
-        <div class="col-3 mb-3">
+        <div class="col-md-3 mb-3">
           <div class="card text-white p-2" style="background-color: #c8c6a7;">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Manage</h5>
@@ -211,7 +211,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 mb-3">
+        <div class="col-md-3 mb-3">
           <div class="card text-white p-2" style="background-color:#6e7c7c">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Connect</h5>
@@ -219,7 +219,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 mb-3">
+        <div class="col-md-3 mb-3">
           <div class="card text-white p-2" style="background-color:#435560">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Optimize</h5>
@@ -227,7 +227,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 mb-3">
+        <div class="col-md-3 mb-3">
           <div class="card text-white p-2" style="background-color:#ffc288">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Cloud</h5>
@@ -235,7 +235,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 mb-3">
+        <div class="col-md-3 mb-3">
           <div class="card text-white p-2" style="background-color:#00adb5">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Secure</h5>
@@ -243,7 +243,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 mb-3">
+        <div class="col-md-3 mb-3">
           <div class="card text-white p-2" style="background-color:#aad8d3">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">GSISd Insights</h5>
@@ -251,7 +251,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 mb-3">
+        <div class="col-md-3 mb-3">
           <div class="card text-white p-2" style="background-color:#393e46">
             <div class="card-body text-center">
                 <h5 class="card-title text-white mb-3">Licensing</h5>
