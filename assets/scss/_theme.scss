@@ -54,11 +54,16 @@ body {
     -webkit-transition: background .3s ease-in-out, padding .3s ease-in-out;
     -moz-transition: background .3s ease-in-out, padding .3s ease-in-out;
     transition: background .3s ease-in-out, padding .3s ease-in-out;
+    @media (max-width:767px) {
+        background: #fff;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        border-bottom: 1px solid #f8f8f8;
+    }
 
     &__fixed {
         background: #fff;
         box-shadow: 0 0 3px #b5b5b5;
-        padding: 0.75rem 1rem !important;
         .nav-link {
             color: #777 !important;
         }
@@ -67,6 +72,10 @@ body {
 .nav-link {
     color: #eee !important;
     margin-right: 15px;
+    @media (max-width:767px) {
+        color: #000 !important;
+        margin-right: 0;
+    }
 }
 .navbar-toggler {
     background-color: #fff;
@@ -74,6 +83,9 @@ body {
 //ourfeature
 .spacer {
     padding: 80px 0;
+     @media (max-width:767px) {
+         padding: 50px 0;
+     }
 }
 
 //ourfeature
@@ -185,6 +197,14 @@ body {
 .edge__devices {
     .card {
         box-shadow: 0 2px 2px 0 #d8d6d6;
+        @media (max-width:767px) {
+            padding: 15px !important;
+        }
+    }
+    .accordion-body {
+        @media (max-width:767px) {
+            padding: 7.5px !important;
+        }
     }
 }
 
@@ -208,7 +228,7 @@ body {
     border-top: solid 1px #fff;
     border-bottom: solid 1px #fff;
     @media (max-width:767px) {
-        font-size: 26px !important;
+        font-size: 22px !important;
     }
 }
 
@@ -221,7 +241,7 @@ body {
     padding: 10px 50px;
     text-align: center;
         @media (max-width:767px) {
-        font-size: 18px !important;
+        font-size: 14px !important;
         line-height: 1.5 !important;
     }
 }
@@ -250,4 +270,17 @@ body {
     @media (max-width:767px) {
         height: 50vh !important;
     }
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: grid;
+  place-content: center;
+  background-color: #f1f1f1;
+  z-index: 999999 !important;
+  text-align: center;
 }

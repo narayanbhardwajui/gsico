@@ -32,14 +32,14 @@
     <div class="container">
     <h2 class="main-title mb-4 text-center">Increase your router capabilities with VNF onboarding.</h2>
       <div class="row mt-5">
-        <div class="col-6">
+        <div class="col-md-6">
           <figure class="px-5">
             <h3 class="h3">Palo Alto Networks Firewall</h3>
             <img src="assets\images\paloalto-GSISD-VNF.png" alt="GSISD VNF1"
               class="img-fluid">
           </figure>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <figure class="px-5">
             <h3 class="h3">Suricata Firewall</h3>
             <img src="assets\images\suricata-GSISD-VNF.png" alt="GSISD VNF2" class="img-fluid">
@@ -47,16 +47,16 @@
         </div>
       </div>
             <div class="row mt-5">
-        <div class="col-6">
+        <div class="col-md-6">
           <figure class="px-5">
             <h3 class="h3">Sangoma Property Manager PBX</h3>
             <img src="assets\images\sangoma-GSISD-VNF.png" alt="GSISD VNF3"
               class="img-fluid">
           </figure>
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <figure class="px-5">
-            <h3 class="h3">Sangoma Property Manager PBX</h3>
+            <h3 class="h3">Sureline Backup</h3>
             <img src="assets\images\sureline-GSISD-VNF.png" alt="GSISD VNF4" class="img-fluid">
           </figure>
         </div>

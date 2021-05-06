@@ -14,6 +14,7 @@
   Experience the Best-in-Class Connectivity & Secured Service WAN Infrastructure."/>
 </head>
 <body>
+
   <?php include 'header.php';?>
   <!--home slider-->
 	<!-- Intro Section -->
@@ -108,7 +109,7 @@
 							data-endeasing="Power1.easeIn"
 							data-captionhidden="off"
 							style="z-index: 6">
-							GSISd's network security products provide industry's top-rated<br> next generation firewall (NGFW) security
+							GSISd's network security products provide industry's<br> top-rated next generation firewall (NGFW) security
 						</div>
 					</li>
           <!-- SLIDE 4 -->

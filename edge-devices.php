@@ -34,11 +34,11 @@
         <!--E700-->
         <div class="card p-5 mb-5">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6">
               <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 700</h2>
-              <p><img class="" src="assets\images\E-700.png" alt="GSISD E-700"></p>
+              <p><img  src="assets\images\E-700.png" alt="GSISD E-700" class="img-fluid"></p>
             </div>
-            <div class="col redgradient pt-4 rounded">
+            <div class="col-md-6 redgradient pt-4 rounded">
               <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
                   style="width:18px;height:18px"></span>Features</h3>
               <ul class="p-0 m-0 lead" style="list-style-position: inside;">
@@ -363,11 +363,11 @@
         <!--E800-->
         <div class="card p-5 mb-5">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6">
               <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 800</h2>
-              <p><img class="" src="assets\images\E-800.png" alt="GSISD E-800 "></p>
+              <p><img class="img-fluid" src="assets\images\E-800.png" alt="GSISD E-800 "></p>
             </div>
-            <div class="col redgradient pt-4 rounded">
+            <div class="col-md-6 redgradient pt-4 rounded">
               <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
                   style="width:18px;height:18px"></span>Features</h3>
               <ul class="p-0 m-0 lead" style="list-style-position: inside;">
@@ -698,11 +698,11 @@
         <!--E2000-->
         <div class="card p-5 mb-5">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6">
               <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 2000</h2>
-              <p><img class="" src="assets\images\E-2000.png" alt="GSISD E-2000"></p>
+              <p><img class="img-fluid" src="assets\images\E-2000.png" alt="GSISD E-2000"></p>
             </div>
-            <div class="col redgradient pt-4 rounded">
+            <div class="col-md-6 redgradient pt-4 rounded">
               <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
                   style="width:18px;height:18px"></span>Features</h3>
               <ul class="p-0 m-0 lead" style="list-style-position: inside;">
@@ -1037,11 +1037,11 @@
         <!--E3000-->
         <div class="card p-5 mb-5">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6">
               <h2 class="h1 text-danger mb-3 fw-bold">GSI EDGE 3000</h2>
-              <p><img class="" src="assets\images\E-3000.png" alt="GSISD E-3000"></p>
+              <p><img class="img-fluid" src="assets\images\E-3000.png" alt="GSISD E-3000"></p>
             </div>
-            <div class="col redgradient pt-4 rounded">
+            <div class="col-md-6 redgradient pt-4 rounded">
               <h3 class="text-danger h3 mb-3 fw-bold"><span class="bg-danger d-inline-block me-2"
                   style="width:18px;height:18px"></span>Features</h3>
               <ul class="p-0 m-0 lead" style="list-style-position: inside;">

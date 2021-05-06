@@ -12,7 +12,7 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="assets/scss/main.css" rel="stylesheet">
   <title>GSISD | Contact us</title>
-  <meta name="description" content="Get in touch with us to get quality technical products and services, 
+  <meta name="description" content="Get in touch with us to get quality technical products and services,
   while meeting high moral and ethical standards in the performance."/>
 </head>
 <body>
@@ -41,7 +41,7 @@
     <section class="sdwan spacer">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-md-6 mb-3">
             <form class="contact-form h-100" method="POST">
               <h3 class="h3 mb-3 text-danger">Have Us Contact You</h3>
               <div class="mb-3">
@@ -61,7 +61,7 @@
               </p>
             </form>
           </div>
-          <div class="col">
+          <div class="col-md-6 mb-3">
             <h3 class="h3">Contact Details:</h3>
             <address class="lead text-secondary lh-lg mb-3">
               Telephone: +1 (818) 697 2286 <br>
