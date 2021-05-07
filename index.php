@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="assets/scss/main.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>GSISD | SD-WAN</title>
   <meta name="description" content="Get GSISD Managed SD-Wan Services For Safe & Fast Connectivity.
   Experience the Best-in-Class Connectivity & Secured Service WAN Infrastructure."/>
