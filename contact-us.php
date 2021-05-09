@@ -65,7 +65,7 @@
           <div class="col-md-6 mb-3">
             <h3 class="h3">Contact Details:</h3>
             <address class="lead text-secondary lh-lg mb-3">
-              Telephone: +1 (818) 697 2286 <br>
+              Telephone: 949-276-9799 <br>
               E-mail:&nbsp;<a href="mailto:info@gsisd.net">info@gsisd.net</a>
             </address>
             <hr>
